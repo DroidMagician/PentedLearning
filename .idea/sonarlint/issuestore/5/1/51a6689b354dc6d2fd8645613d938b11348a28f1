@@ -1,0 +1,14 @@
+
+Kkotlin:S1172»"2Use "_" instead of these unused lambda parameters.(Ñş—‚
+Hkotlin:S1481S"+Remove this unused "active" local variable.(´£¢ûÿÿÿÿ
+Dkotlin:S1481R"'Remove this unused "fm" local variable.(øÕ¢Œüÿÿÿÿ
+Wkotlin:S1481é">Remove this unused "instantExperienceLaunched" local variable.(¬Ÿæœ
+Qkotlin:S1481è"3Remove this unused "appInstallTime" local variable.(Ô¬áøÿÿÿÿ
+Okotlin:S1481ç"6Remove this unused "referrerClickTime" local variable.(í”œÉ
+Ikotlin:S1481æ"0Remove this unused "referrerUrl" local variable.(ö¥û
+Gkotlin:S1481¯")Remove this unused "days" local variable.(§³ñÕøÿÿÿÿ
+;kotlin:S125]"Remove this commented out code.(ÿîà™üÿÿÿÿ
+kkotlin:S1871Œ"MThis branch's code block is the same as the block for the branch on line 380.(£„«úÿÿÿÿ
+ekotlin:S1871"MThis branch's code block is the same as the block for the branch on line 400.(³¸»f
+kkotlin:S1871™"MThis branch's code block is the same as the block for the branch on line 404.(ıšÜúÿÿÿÿ
+ikotlin:S3776F"RRefactor this method to reduce its Cognitive Complexity from 44 to the 15 allowed.(Í‰Ş~

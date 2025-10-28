@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <string name="app_name">पेंटेड</string>
+
+
+        <string name="get_started">शुरू हो जाओ</string>
+        <string name="enter_your_phone">शुरू करने के लिए अपना फ़ोन नंबर दर्ज करें</string>
+        <string name="phone_number">फ़ोन नंबर</string>
+        <string name="cont">जारी रखना</string>
+        <string name="use_security_code">करने के लिए सुरक्षा कोड का प्रयोग करें</string>
+        <string name="sign_in">साइन इन करें</string>
+
+        <string name="crop_image_activity_title"></string>
+        <string name="crop_image_menu_rotate_left">Rotate counter clockwise</string>
+        <string name="crop_image_menu_rotate_right">Rotate</string>
+        <string name="crop_image_menu_crop">Crop</string>
+        <string name="crop_image_menu_flip">Flip</string>
+        <string name="crop_image_menu_flip_horizontally">Flip horizontally</string>
+        <string name="crop_image_menu_flip_vertically">Flip vertically</string>
+        <string name="content_des">PDF PAGE</string>
+        <string name="pick_image_intent_chooser_title">Select source</string>
+
+        <string name="crop_image_activity_no_permissions">Cancelling, required permissions are not granted</string>
+        <string name="change_standard">मानक बदलें:</string>
+        <string name="part">पार्ट्स</string>
+        <string name="blueprint">ब्लूप्रिंट</string>
+        <string name="back">वापस</string>
+        <string name="one_time_password">एक बारी पासवर्ड</string>
+        <string name="we_have_sent_otp">हमने आपके नंबर पर एक ओटीपी भेजा है</string>
+        <string name="resend_otp">ओटीपी पुनः भेजें</string>
+
+
+        <string name="your_security_question">आपका सुरक्षा प्रश्न</string>
+        <string name="please_answer_your_security_question">कृपया अपने सुरक्षा प्रश्न का उत्तर दें\nपासवर्ड रीसेट करने के लिए</string>
+        <string name="type_your_ans_here">अपना उत्तर यहां लिखें</string>
+
+
+        <string name="register_yourself">खुद को पंजीकृत करें</string>
+        <string name="hello_lets_get">नमस्कार, आइए आपको हमारे साथ पंजीकृत करवाते हैं</string>
+        <string name="student_name">छात्र का नाम</string>
+        <string name="your_class_std">आपकी कक्षा /मानक</string>
+        <string name="register_myself">खुद को पंजीकृत करें</string>
+        <string name="enter_other_details">अन्य विवरण दर्ज करें</string>
+        <string name="please_enter_other_details">कृपया अन्य विवरण दर्ज करें</string>
+        <string name="personal_details">व्यक्तिगत विवरण</string>
+        <string name="upload_pro_pic">प्रोफ़ाइल चित्र अपलोड करें</string>
+        <string name="use_cam_or_upload">कैमरे का उपयोग करें या गैलरी से अपलोड करें</string>
+        <string name="enter_your_email_id">अपनी ईमेल आईडी दर्ज करें</string>
+        <string name="about_yourself">अपने बारे में</string>
+        <string name="security_ques">सुरक्षा प्रश्न</string>
+        <string name="we_will_use_this_answer">हम इस उत्तर का उपयोग आपातकालीन मामलों के लिए करेंगे</string>
+        <string name="add_your_security_que">अपना सुरक्षा प्रश्न जोड़ें</string>
+        <string name="skip_this_step">इस स्टेप को छोड़ दें</string>
+        <string name="confirm">पुष्टि करना</string>
+
+
+        <string name="home">घर</string>
+        <string name="subjects">विषयों</string>
+        <string name="scan">स्कैन</string>
+        <string name="tests">परीक्षण</string>
+        <string name="leaderboard">लीडरबोर्ड</string>
+        <string name="search">खोज...</string>
+        <string name="start_with_your_subjects">अपने विषयों से शुरू करें</string>
+        <string name="today_live_classes">Today live classes</string>
+        <string name="attend_live_classes_by_experts">विशेषज्ञों द्वारा लाइव कक्षाओं में भाग लें</string>
+        <string name="subscribe_up_with_our_weekly_tests">हमारे साप्ताहिक परीक्षणों के साथ सदस्यता लें</string>
+        <string name="exam_blueprints">Text Books</string>
+        <string name="final_structure_of_your_exam_paper">आपके परीक्षा पत्र की अंतिम संरचना</string>
+        <string name="ask_doubts">Ask doubts</string>
+        <string name="send_us_your_doubts">हमें अपनी शंका भेजें</string>
+        <string name="all_doubts_resolved_please_check">सभी शंकाओं का समाधान कृपया जांचें</string>
+        <string name="the_champ">चबाना</string>
+
+
+        <string name="notifications">सूचनाएं</string>
+        <string name="new_">नया</string>
+        <string name="earlier_notifications">पहले की सूचनाएं</string>
+
+
+        <string name="mathematics">गणित</string>
+        <string name="subscribe_this_subject">इस विषय को सब्सक्राइब करें</string>
+        <string name="get_notifications_of">हल करने के लिए लाइव क्लासेस, वीकेंड टेस्ट और दैनिक महत्वपूर्ण प्रश्नों की सूचनाएं प्राप्त करें</string>
+        <string name="subscribed">\u2022 सब्सक्राइब किया गया</string>
+        <string name="dot">\u2022</string>
+        <string name="todays_important_questions">आज के महत्वपूर्ण प्रश्न</string>
+        <string name="just_solving_these_questions">इन प्रश्नों को हल करने मात्र से आपको 40% अधिक अंक प्राप्त होते हैं</string>
+
+
+        <string name="lets_start">चलो शुरू करते हैं</string>
+        <string name="linear_equations">रेखीय समीकरण</string>
+        <string name="lets_try_our_heads">आइए कुछ x और y के साथ अपने सिर को घुमाने की कोशिश करें</string>
+        <string name="start_now">शुरू करें</string>
+
+
+        <string name="text_spaces"/>
+        <string name="e_no_internet">कोई इंटरनेट कनेक्शन नहीं</string>
+        <string name="weekend_test_series">Weekend test series</string>
+        <string name="check_important_links">महत्वपूर्ण लिंक जांचें</string>
+        <string name="download_important_questions">महत्वपूर्ण प्रश्न डाउनलोड करें</string>
+        <string name="ask_a_important_question">एक महत्वपूर्ण प्रश्न पूछें</string>
+        <string name="question_answers">प्रश्न उत्तर</string>
+        <string name="enter_phon_number">कृपया फ़ोन नंबर दर्ज करें</string>
+        <string name="enter_valid_phon_number">कृपया एक वैध नंबर डालें</string>
+        <string name="enter_OTP">कृपया ओटीपी दर्ज करें</string>
+        <string name="enter_valid_OTP">ओटीपी 4 अंकों का होना चाहिए</string>
+
+        <string name="enter_address">अपना पता दर्ज करें</string>
+        <string name = "take_photo">फ़ोटो लें</string>
+        <string name = "choose_photo">फ़ोटो चुनें</string>
+        <string name = "cancel">रद्द करें</string>
+        <string name = "something_went_wrong">कुछ गलत हो गया</string>
+        <string name = "enter_name">अपना नाम दर्ज करें</string>
+        <string name="practice">अभ्यास</string>
+        <string name="Modal_question_paper">मोडल प्रश्न पत्र</string>
+        <string name="rational_and_numbers">परिमेय और संख्याएं (गणित)</string>
+
+        <string name="leaderboards">Leaderboards</string>
+        <string name="profile">Profile</string>
+        <string name="subscription">Subscription</string>
+        <string name="places_api_key">"AIzaSyDCOOdj1IalxuAD6KV73UG1i6DDUDrW0XI"</string>
+        <string name="select_language">Please select your language.</string>
+        <string name="select_standard">Please select your standard.</string>
+    <string name="edit_profile_details">प्रोफ़ाइल विवरण संपादित करें</string>
+        <string name="filter">Filter</string>
+        <string name="exit">Exit</string>
+        <string name="scanagain">Scan Again</string>
+        <string name="searchbystudentName">Search by student name</string>
+        <string name="searchCityName">Search by city name</string>
+        <string name="searchSchoolName">Search by school name</string>
+
+</resources>

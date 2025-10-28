@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/lilStartNowLeft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:visibility="gone"
+        app:cardCornerRadius="@dimen/_10sdp"
+        app:cardElevation="@dimen/_10sdp"
+        app:contentPadding="@dimen/_10sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/_30sdp">
+
+            <TextView
+                style="@style/BoldText"
+                android:id="@+id/txtChapterNameLeft"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter Name"
+                android:textColor="@color/secondary_gray"
+                android:textSize="@dimen/_12ssp">
+
+            </TextView>
+
+            <TextView
+                style="@style/NormalText"
+                android:id="@+id/txtChapterDescriptionLeft"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:text="Chapter Description"
+                android:textColor="@color/secondary_gray"
+                android:textSize="@dimen/_12ssp"></TextView>
+
+            <TextView
+                android:id="@+id/txtStartNowLeft"
+                style="@style/BoldText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Start Now"
+                android:textColor="@color/primary"
+                android:textSize="@dimen/_12ssp"></TextView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+<LinearLayout
+    android:layout_marginTop="170dp"
+    android:id="@+id/linearLeft"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/animationViewLeft"
+            android:visibility="gone"
+            android:layout_width="@dimen/_110sdp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="@dimen/_140sdp"
+            android:src="@drawable/ic_rocket_stable"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:id="@+id/llPlanetLeft"
+            android:orientation="vertical"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/ivPlanetLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_teal_world"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="@dimen/_15sdp"
+                app:cardElevation="@dimen/_5sdp"
+                android:layout_margin="@dimen/_10sdp">
+
+                <TextView
+                    android:id="@+id/tvTopicNameLeft"
+                    android:layout_width="@dimen/_70sdp"
+                    android:layout_height="wrap_content"
+                    android:text="Linear equations"
+                    android:textColor="@color/heading_gray"
+                    android:fontFamily="@font/nunito_semibold"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_12sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_7sdp"
+                    android:textSize="@dimen/_10ssp"/>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
+</RelativeLayout>

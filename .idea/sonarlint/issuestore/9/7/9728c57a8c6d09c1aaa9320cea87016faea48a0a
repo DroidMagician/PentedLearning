@@ -1,0 +1,26 @@
+
+Ekotlin:S108[")Either remove or fill this block of code.(ö·ã€ÿÿÿÿÿ
+Mkotlin:S1656ø"/Remove or correct this useless self-assignment.(þ¬Èþúÿÿÿÿ
+Mkotlin:S1656‚"/Remove or correct this useless self-assignment.(þ¬Èþúÿÿÿÿ
+2kotlin:S1128"Remove this unused import.(‚ê×Í
+9kotlin:S1128"Remove this unused import.(ïùØÊ8‡›Ÿà¨2
+9kotlin:S1128"Remove this unused import.(Ï¯³¡8‡›Ÿà¨2
+9kotlin:S1128"Remove this unused import.(êšð¨8‡›Ÿà¨2
+5kotlin:S125*"Remove this commented out code.(ã†–z
+5kotlin:S125E"Remove this commented out code.(žæ°d
+;kotlin:S125J"Remove this commented out code.(»•‚çýÿÿÿÿ
+;kotlin:S125M"Remove this commented out code.(÷ÔØˆùÿÿÿÿ
+Ckotlin:S125¤"Remove this commented out code.(ÿîà™üÿÿÿÿ8ˆµ¡Ž¨2
+7kotlin:S125³"Remove this commented out code.(Ö¬ÆÝ
+7kotlin:S125É"Remove this commented out code.(ý¯÷¼
+<kotlin:S125Î"Remove this commented out code.(ºØ–úÿÿÿÿ
+7kotlin:S125Ð"Remove this commented out code.(û¦¦Î
+7kotlin:S125Ö"Remove this commented out code.(ñã²ð
+<kotlin:S125Ú"Remove this commented out code.(„ë¾½ûÿÿÿÿ
+7kotlin:S125õ"Remove this commented out code.(ý‚ô
+<kotlin:S125"Remove this commented out code.(ºØ–úÿÿÿÿ
+<kotlin:S125…"Remove this commented out code.(š™¸ñýÿÿÿÿ
+7kotlin:S125‹"Remove this commented out code.(ñã²ð
+Ukotlin:S1144ä"<Remove this unused private "setVideoSolutionAdapter" method.(˜¾Ùº
+skotlin:S1186ä"ZAdd a nested comment explaining why this function is empty or complete the implementation.(˜¾Ùº
+Lkotlin:S1066ò".Merge this "if" statement with the nested one.(ƒÎ©ãþÿÿÿÿ

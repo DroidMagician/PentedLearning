@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_circle_background_color" format="color" />
+        <attr name="cir_url" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="ChipView">
+        <attr name="chip_spacing" format="dimension" />
+        <attr name="chip_line_spacing" format="dimension" />
+        <attr name="chip_padding" format="dimension" />
+        <attr name="chip_side_padding" format="dimension" />
+        <attr name="chip_corner_radius" format="dimension" />
+        <attr name="chip_background" format="reference" />
+        <attr name="chip_background_selected" format="reference" />
+        <attr name="chip_background_res" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="PdfRendererView">
+        <attr name="pdfView_quality" format="enum">
+            <enum name="fast" value="1" />
+            <enum name="normal" value="2" />
+            <enum name="enhanced" value="3" />
+        </attr>
+        <attr name="pdfView_engine" format="enum">
+            <enum name="internal" value="100" />
+            <enum name="google" value="200" />
+        </attr>
+        <attr name="pdfView_showDivider" format="boolean" />
+        <attr name="pdfView_divider" format="reference" />
+    </declare-styleable>
+
+    <!-- icons -->
+    <attr name="pdfView_backIcon" format="reference" />
+    <attr name="pdfView_downloadIcon" format="reference" />
+
+    <!-- icon color -->
+    <attr name="pdfView_downloadIconTint" format="reference|color" />
+    <attr name="pdfView_actionBarTint" format="reference|color" />
+
+    <!-- Text Appearance Customizations - Common -->
+    <attr name="pdfView_titleTextStyle" format="reference" />
+
+    <attr name="pdfView_progressBar" format="reference"/>
+    <declare-styleable name="CircularProgressIndicator">
+
+        <attr name="progressColor" format="color" />
+        <attr name="progressBackgroundColor" format="color" />
+        <attr name="progressStrokeWidth" format="dimension" />
+        <attr name="progressBackgroundStrokeWidth" format="dimension" />
+
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+
+        <attr name="formattingPattern" format="string|reference" />
+
+        <attr name="drawDot" format="boolean" />
+        <attr name="dotColor" format="color" />
+        <attr name="dotWidth" format="dimension" />
+
+        <attr name="startAngle" format="integer|reference" />
+
+        <attr name="direction" format="enum">
+            <enum name="clockwise" value="0" />
+            <enum name="counterclockwise" value="1" />
+        </attr>
+
+        <attr name="progressCap" format="enum">
+            <enum name="round" value="0" />
+            <enum name="butt" value="1" />
+        </attr>
+
+        <attr name="enableProgressAnimation" format="boolean" />
+
+        <attr name="fillBackground" format="boolean" />
+
+        <attr name="gradientEndColor" format="color|reference"/>
+        <attr name="gradientType" format="enum">
+            <enum name="no_gradient" value="0"/>
+            <enum name="linear" value="1"/>
+            <enum name="radial" value="2"/>
+            <enum name="sweep" value="3"/>
+        </attr>
+
+    </declare-styleable>
+    <declare-styleable name="CropImageView">
+            <attr name="cropGuidelines">
+                <enum name="off" value="0"/>
+                <enum name="onTouch" value="1"/>
+                <enum name="on" value="2"/>
+            </attr>
+            <attr name="cropScaleType">
+                <enum name="fitCenter" value="0"/>
+                <enum name="center" value="1"/>
+                <enum name="centerCrop" value="2"/>
+                <enum name="centerInside" value="3"/>
+            </attr>
+            <attr name="cropShape">
+                <enum name="rectangle" value="0"/>
+                <enum name="oval" value="1"/>
+                <enum name="rectangleVerticalOnly" value="2"/>
+                <enum name="rectangleHorizontalOnly" value="3"/>
+            </attr>
+            <attr name="cornerShape">
+                <enum name="rectangle" value="0"/>
+                <enum name="oval" value="1"/>
+            </attr>
+            <attr name="cropAutoZoomEnabled" format="boolean"/>
+            <attr name="cropMaxZoom" format="integer"/>
+            <attr name="cropMultiTouchEnabled" format="boolean"/>
+            <attr name="cropCenterMoveEnabled" format="boolean"/>
+            <attr name="cropFixAspectRatio" format="boolean"/>
+            <attr name="cropAspectRatioX" format="integer"/>
+            <attr name="cropAspectRatioY" format="integer"/>
+            <attr name="cropInitialCropWindowPaddingRatio" format="float"/>
+            <attr name="cropBorderLineThickness" format="dimension"/>
+            <attr name="cropBorderLineColor" format="color"/>
+            <attr name="cropBorderCornerThickness" format="dimension"/>
+            <attr name="cropBorderCornerOffset" format="dimension"/>
+            <attr name="cropBorderCornerLength" format="dimension"/>
+            <attr name="cropBorderCornerColor" format="color"/>
+            <attr name="cropGuidelinesThickness" format="dimension"/>
+            <attr name="cropGuidelinesColor" format="color"/>
+            <attr name="cropBackgroundColor" format="color"/>
+            <attr name="cropSnapRadius" format="dimension"/>
+            <attr name="cropTouchRadius" format="dimension"/>
+            <attr name="cropSaveBitmapToInstanceState" format="boolean"/>
+            <attr name="cropShowCropOverlay" format="boolean"/>
+            <attr name="cropShowProgressBar" format="boolean"/>
+            <attr name="cropMinCropWindowWidth" format="dimension"/>
+            <attr name="cropMinCropWindowHeight" format="dimension"/>
+            <attr name="cropMinCropResultWidthPX" format="float"/>
+            <attr name="cropMinCropResultHeightPX" format="float"/>
+            <attr name="cropMaxCropResultWidthPX" format="float"/>
+            <attr name="cropMaxCropResultHeightPX" format="float"/>
+            <attr name="cropFlipHorizontally" format="boolean"/>
+            <attr name="cropFlipVertically" format="boolean"/>
+            <attr name="cropCornerCircleFillColor" format="color"/>
+            <attr name="cropCornerRadius" format="dimension"/>
+            <attr name="cropperLabelTextSize" format="float"/>
+            <attr name="cropperLabelTextColor" format="color"/>
+            <attr name="cropperLabelText" format="string"/>
+            <attr name="cropShowLabel" format="boolean"/>
+    </declare-styleable>
+
+<!--    <declare-styleable name="CropImageView">-->
+<!--        <attr name="cropGuidelines">-->
+<!--            <enum name="off" value="0"/>-->
+<!--            <enum name="onTouch" value="1"/>-->
+<!--            <enum name="on" value="2"/>-->
+<!--        </attr>-->
+<!--        <attr name="cropScaleType">-->
+<!--            <enum name="fitCenter" value="0"/>-->
+<!--            <enum name="center" value="1"/>-->
+<!--            <enum name="centerCrop" value="2"/>-->
+<!--            <enum name="centerInside" value="3"/>-->
+<!--        </attr>-->
+<!--        <attr name="cropShape">-->
+<!--            <enum name="rectangle" value="0"/>-->
+<!--            <enum name="oval" value="1"/>-->
+<!--        </attr>-->
+<!--        <attr name="cropAutoZoomEnabled" format="boolean"/>-->
+<!--        <attr name="cropMaxZoom" format="integer"/>-->
+<!--        <attr name="cropMultiTouchEnabled" format="boolean"/>-->
+<!--        <attr name="cropFixAspectRatio" format="boolean"/>-->
+<!--        <attr name="cropAspectRatioX" format="integer"/>-->
+<!--        <attr name="cropAspectRatioY" format="integer"/>-->
+<!--        <attr name="cropInitialCropWindowPaddingRatio" format="float"/>-->
+<!--        <attr name="cropBorderLineThickness" format="dimension"/>-->
+<!--        <attr name="cropBorderLineColor" format="color"/>-->
+<!--        <attr name="cropBorderCornerThickness" format="dimension"/>-->
+<!--        <attr name="cropBorderCornerOffset" format="dimension"/>-->
+<!--        <attr name="cropBorderCornerLength" format="dimension"/>-->
+<!--        <attr name="cropBorderCornerColor" format="color"/>-->
+<!--        <attr name="cropGuidelinesThickness" format="dimension"/>-->
+<!--        <attr name="cropGuidelinesColor" format="color"/>-->
+<!--        <attr name="cropBackgroundColor" format="color"/>-->
+<!--        <attr name="cropSnapRadius" format="dimension"/>-->
+<!--        <attr name="cropTouchRadius" format="dimension"/>-->
+<!--        <attr name="cropSaveBitmapToInstanceState" format="boolean"/>-->
+<!--        <attr name="cropShowCropOverlay" format="boolean"/>-->
+<!--        <attr name="cropShowProgressBar" format="boolean"/>-->
+<!--        <attr name="cropMinCropWindowWidth" format="dimension"/>-->
+<!--        <attr name="cropMinCropWindowHeight" format="dimension"/>-->
+<!--        <attr name="cropMinCropResultWidthPX" format="float"/>-->
+<!--        <attr name="cropMinCropResultHeightPX" format="float"/>-->
+<!--        <attr name="cropMaxCropResultWidthPX" format="float"/>-->
+<!--        <attr name="cropMaxCropResultHeightPX" format="float"/>-->
+<!--        <attr name="cropFlipHorizontally" format="boolean"/>-->
+<!--        <attr name="cropFlipVertically" format="boolean"/>-->
+<!--    </declare-styleable>-->
+    <declare-styleable name="StepperNavigationView">
+        <attr name="stepperWidgetColor" format="color" />
+        <attr name="stepperIconSize" format="dimension" />
+        <attr name="stepperItems" format="reference" />
+        <attr name="stepperTextAppearance" format="reference" />
+        <attr name="stepperTextColor" format="color" />
+        <attr name="stepperTextSize" format="dimension" />=
+        <attr name="stepperFleetDuration" format="integer" />
+
+        <attr name="stepperType">
+            <enum name="tab" value="0x01" />
+            <enum name="tab_numbered" value="0x02" />
+            <enum name="progress" value="0x03" />
+            <enum name="fleets" value="0x04" />
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="CountryCodePicker">
+        <!--{@deprecated Use defaultNameCode instead.}-->
+        <attr name="ccp_defaultPhoneCode" format="integer" />
+        <attr name="ccp_contentColor" format="color" />
+        <attr name="ccp_arrowColor" format="color" />
+        <attr name="ccp_textSize" format="dimension" />
+        <attr name="ccp_arrowSize" format="dimension" />
+        <attr name="ccp_customMasterCountries" format="string" />
+        <attr name="ccp_excludedCountries" format="string" />
+        <attr name="ccp_flagBorderColor" format="color" />
+        <attr name="ccp_countryPreference" format="string" />
+        <attr name="ccp_defaultNameCode" format="string" />
+        <attr name="ccp_selectionMemoryTag" format="string" />
+        <attr name="ccp_useFlagEmoji" format="boolean" /> <!-- beta -->
+        <attr name="ccp_useDummyEmojiForPreview" format="boolean" /> <!-- beta -->
+
+        <attr name="ccp_textGravity" format="enum">
+            <enum name="LEFT" value="-1" />
+            <enum name="RIGHT" value="1" />
+            <enum name="CENTER" value="0" />
+        </attr>
+        <attr name="ccp_hintExampleNumberType" format="enum">
+            <enum name="MOBILE" value="0" />
+            <enum name="FIXED_LINE" value="1" />
+            <enum name="FIXED_LINE_OR_MOBILE" value="2" />
+            <enum name="TOLL_FREE" value="3" />
+            <enum name="PREMIUM_RATE" value="4" />
+            <enum name="SHARED_COST" value="5" />
+            <enum name="VOIP" value="6" />
+            <enum name="PERSONAL_NUMBER" value="7" />
+            <enum name="PAGER" value="8" />
+            <enum name="UAN" value="9" />
+            <enum name="VOICEMAIL" value="10" />
+            <enum name="UNKNOWN" value="11" />
+
+        </attr>
+
+
+        <!--CCP dimension properties-->
+        <attr name="ccp_padding" format="dimension" />
+
+        <!--CCP bool properties-->
+        <attr name="ccp_showNameCode" format="boolean" />
+        <attr name="ccp_showFlag" format="boolean" />
+        <attr name="ccp_showFullName" format="boolean" />
+        <attr name="ccp_internationalFormattingOnly" format="boolean" />
+        <attr name="ccp_clickable" format="boolean" />
+        <attr name="ccp_showPhoneCode" format="boolean" />
+        <attr name="ccp_autoDetectLanguage" format="boolean" />
+        <attr name="ccp_autoDetectCountry" format="boolean" />
+        <attr name="ccp_areaCodeDetectedCountry" format="boolean" />
+        <attr name="ccp_autoFormatNumber" format="boolean" />
+        <attr name="ccp_hintExampleNumber" format="boolean" />
+        <attr name="ccp_rememberLastSelection" format="boolean" />
+        <attr name="ccp_showArrow" format="boolean" />
+
+        <!--CCP Dialog properties-->
+        <attr name="ccpDialog_keyboardAutoPopup" format="boolean" />
+        <attr name="ccpDialog_allowSearch" format="boolean" />
+        <attr name="ccpDialog_showPhoneCode" format="boolean" />
+        <attr name="ccpDialog_showNameCode" format="boolean" />
+        <attr name="ccpDialog_showFlag" format="boolean" />
+        <attr name="ccpDialog_showFastScroller" format="boolean" />
+        <attr name="ccpDialog_fastScroller_bubbleColor" format="color" />
+        <attr name="ccpDialog_fastScroller_handleColor" format="color" />
+        <attr name="ccpDialog_fastScroller_bubbleTextAppearance" format="reference" />
+        <attr name="ccpDialog_backgroundColor" format="reference" />
+        <attr name="ccpDialog_background" format="reference" />
+        <attr name="ccpDialog_cornerRadius" format="dimension" />
+        <attr name="ccpDialog_textColor" format="color" />
+        <attr name="ccpDialog_searchEditTextTint" format="color" />
+        <attr name="ccpDialog_showCloseIcon" format="boolean" />
+        <attr name="ccpDialog_showTitle" format="boolean" />
+        <attr name="ccpDialog_initialScrollToSelection" format="boolean" />
+        <!--list of languages-->
+        <!--Make sure: order in this list must match order of Language Enum in CountryCodePicker.java. Values must be ascending starting from 0.-->
+        <attr name="ccp_defaultLanguage" format="enum">
+            <enum name="AFRIKAANS" value="0" />
+            <enum name="ARABIC" value="1" />
+            <enum name="BENGALI" value="2" />
+            <enum name="CHINESE_SIMPLIFIED" value="3" />
+            <enum name="CHINESE_TRADITIONAL" value="4" />
+            <enum name="CZECH" value="5" />
+            <enum name="DANISH" value="6" />
+            <enum name="DUTCH" value="7" />
+            <enum name="ENGLISH" value="8" />
+            <enum name="FARSI" value="9" />
+            <enum name="FRENCH" value="10" />
+            <enum name="GERMAN" value="11" />
+            <enum name="GREEK" value="12" />
+            <enum name="GUJARATI" value="13" />
+            <enum name="HEBREW" value="14" />
+            <enum name="HINDI" value="15" />
+            <enum name="INDONESIA" value="16" />
+            <enum name="ITALIAN" value="17" />
+            <enum name="JAPANESE" value="18" />
+            <enum name="KAZAKH" value="19" />
+            <enum name="KOREAN" value="20" />
+            <enum name="MARATHI" value="21"/>
+            <enum name="POLISH" value="22" />
+            <enum name="PORTUGUESE" value="23" />
+            <enum name="PUNJABI" value="24" />
+            <enum name="RUSSIAN" value="25" />
+            <enum name="SLOVAK" value="26" />
+            <enum name="SLOVENIAN" value="27" />
+            <enum name="SPANISH" value="28" />
+            <enum name="SWEDISH" value="29" />
+            <enum name="TAGALOG" value="30" />
+            <enum name="THAI" value="31" />
+            <enum name="TURKISH" value="32" />
+            <enum name="UKRAINIAN" value="33" />
+            <enum name="URDU" value="34" />
+            <enum name="UZBEK" value="35" />
+            <enum name="VIETNAMESE" value="36" />
+        </attr>
+
+        <attr name="ccp_countryAutoDetectionPref" format="enum">
+            <enum name="SIM_ONLY" value="1" />
+            <enum name="NETWORK_ONLY" value="2" />
+            <enum name="LOCALE_ONLY" value="3" />
+            <enum name="SIM_NETWORK" value="12" />
+            <enum name="NETWORK_SIM" value="21" />
+            <enum name="SIM_LOCALE" value="13" />
+            <enum name="LOCALE_SIM" value="31" />
+            <enum name="NETWORK_LOCALE" value="23" />
+            <enum name="LOCALE_NETWORK" value="32" />
+            <enum name="SIM_NETWORK_LOCALE" value="123" />
+            <enum name="SIM_LOCALE_NETWORK" value="132" />
+            <enum name="NETWORK_SIM_LOCALE" value="213" />
+            <enum name="NETWORK_LOCALE_SIM" value="231" />
+            <enum name="LOCALE_SIM_NETWORK" value="312" />
+            <enum name="LOCALE_NETWORK_SIM" value="321" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CurrencyEditText">
+        <attr name="allow_negative_values" format="boolean" />
+        <attr name="decimal_digits" format="integer" />
+        <attr name="currencySymbol" format="string"/>
+        <attr name="localeTag" format="string"/>
+        <attr name="useCurrencySymbolAsHint" format="boolean"/>
+        <attr name="maxNumberOfDecimalDigits" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="DateRangeMonthView">
+        <attr name="title_color" format="color" />
+        <attr name="week_color" format="color" />
+        <attr name="range_color" format="color" />
+        <attr name="selected_date_circle_color" format="color" />
+        <attr name="selected_date_color" format="color" />
+        <attr name="default_date_color" format="color" />
+        <attr name="range_date_color" format="color" />
+        <attr name="disable_date_color" format="color" />
+        <attr name="enable_time_selection" format="boolean" />
+        <attr name="text_size_title" format="dimension" />
+        <attr name="text_size_week" format="dimension" />
+        <attr name="text_size_date" format="dimension" />
+        <attr name="header_bg" format="integer" />
+        <attr name="calendar_tag" format="string" />
+        <attr name="week_offset" format="integer" />
+        <attr name="editable" format="boolean" />
+        <attr name="date_selection_mode" format="enum">
+            <enum name="free_range" value="0" />
+            <enum name="single" value="1" />
+            <enum name="fixed_range" value="2" />
+        </attr>
+    </declare-styleable>
+   <!-- <declare-styleable name="PinViewTheme">
+        <attr name="pinViewStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="PinView">
+        <attr name="itemCount" format="integer" />
+        <attr name="itemWidth" format="dimension" />
+        <attr name="itemHeight" format="dimension" />
+        <attr name="itemRadius" format="dimension" />
+        <attr name="itemSpacing" format="dimension" />
+        <attr name="lineWidth" format="dimension" />
+        <attr name="lineColor" format="reference|color" />
+        <attr name="viewType" format="enum">
+            <enum name="rectangle" value="0" />
+            <enum name="line" value="1" />
+            <enum name="none" value="2" />
+        </attr>
+        <attr name="android:cursorVisible" />
+        <attr name="cursorWidth" format="dimension" />
+        <attr name="cursorColor" format="reference|color" />
+        <attr name="android:itemBackground" />
+        <attr name="hideLineWhenFilled" format="boolean" />
+    </declare-styleable>-->
+
+    <!-- Range Seekbar -->
+<!--    <declare-styleable name="CrystalRangeSeekbar">-->
+<!--        <attr name="corner_radius" />-->
+<!--        <attr name="min_value" />-->
+<!--        <attr name="max_value" />-->
+<!--        <attr name="min_start_value" />-->
+<!--        <attr name="max_start_value" />-->
+<!--        <attr name="steps" />-->
+<!--        <attr name="gap" />-->
+<!--        <attr name="fix_gap" />-->
+<!--        <attr name="bar_height" />-->
+<!--        <attr name="bar_color_mode" />-->
+<!--        <attr name="bar_color" />-->
+<!--        <attr name="bar_gradient_start" />-->
+<!--        <attr name="bar_gradient_end" />-->
+<!--        <attr name="bar_highlight_color_mode" />-->
+<!--        <attr name="bar_highlight_color" />-->
+<!--        <attr name="bar_highlight_gradient_start" />-->
+<!--        <attr name="bar_highlight_gradient_end" />-->
+<!--        <attr name="thumb_diameter" />-->
+<!--        <attr name="position" />-->
+<!--        <attr name="data_type" />-->
+<!--        <attr name="left_thumb_color" format="color" />-->
+<!--        <attr name="left_thumb_color_pressed" format="color" />-->
+<!--        <attr name="left_thumb_image" format="reference" />-->
+<!--        <attr name="left_thumb_image_pressed" format="reference" />-->
+<!--        <attr name="right_thumb_color" format="color" />-->
+<!--        <attr name="right_thumb_color_pressed" format="color" />-->
+<!--        <attr name="right_thumb_image" format="reference" />-->
+<!--        <attr name="right_thumb_image_pressed" format="reference" />-->
+<!--        <attr name="seek_bar_touch_enabled" />-->
+<!--    </declare-styleable>-->
+
+<!--    &lt;!&ndash; Seekbar &ndash;&gt;-->
+<!--    <declare-styleable name="CrystalSeekbar">-->
+<!--        <attr name="corner_radius" />-->
+<!--        <attr name="min_value" />-->
+<!--        <attr name="max_value" />-->
+<!--        <attr name="min_start_value" />-->
+<!--        <attr name="max_start_value" />-->
+<!--        <attr name="steps" />-->
+<!--        <attr name="gap" />-->
+<!--        <attr name="fix_gap" />-->
+<!--        <attr name="bar_height" />-->
+<!--        <attr name="bar_color_mode" />-->
+<!--        <attr name="bar_color" />-->
+<!--        <attr name="bar_gradient_start" />-->
+<!--        <attr name="bar_gradient_end" />-->
+<!--        <attr name="bar_highlight_color_mode" />-->
+<!--        <attr name="bar_highlight_color" />-->
+<!--        <attr name="bar_highlight_gradient_start" />-->
+<!--        <attr name="bar_highlight_gradient_end" />-->
+<!--        <attr name="thumb_diameter" />-->
+<!--        <attr name="position" />-->
+<!--        <attr name="data_type" />-->
+<!--        <attr name="thumb_color" format="color" />-->
+<!--        <attr name="thumb_color_pressed" format="color" />-->
+<!--        <attr name="thumb_image" format="reference" />-->
+<!--        <attr name="thumb_image_pressed" format="reference" />-->
+<!--        <attr name="seek_bar_touch_enabled" />-->
+<!--    </declare-styleable>-->
+
+
+
+    <attr name="fileChooserStyle" format="reference" />
+
+    <declare-styleable name="FileChooser">
+        <attr name="fileChooserDialogGravity" format="flags">
+            <flag name="no_gravity" value="0" />
+            <flag name="left" value="3" />
+            <flag name="top" value="48" />
+            <flag name="right" value="5" />
+            <flag name="bottom" value="80" />
+            <flag name="center" value="17" />
+            <flag name="center_horizontal" value="1" />
+            <flag name="center_vertical" value="16" />
+            <flag name="start" value="8388611" />
+            <flag name="end" value="8388613" />
+        </attr>
+        <attr name="fileChooserDialogStyle" format="reference" />
+        <attr name="fileChooserListItemStyle" format="reference" />
+        <attr name="fileChooserTextNameStyle" format="reference" />
+        <attr name="fileChooserTextSizeStyle" format="reference" />
+        <attr name="fileChooserTextDateStyle" format="reference" />
+        <attr name="fileChooserFileIconStyle" format="reference" />
+        <attr name="fileListItemSelectedTint" format="color|reference" />
+        <attr name="fileListItemFocusedDrawable" format="reference"/>
+        <attr name="fileChooserPathViewStyle" format="reference" />
+        <attr name="fileChooserPathViewElevation" format="integer|reference" />
+        <attr name="fileChooserPathViewDisplayRoot" format="boolean|reference"/>
+        <attr name="fileChooserNewFolderStyle" format="reference" />
+        <attr name="fileChooserNewFolderOverlayColor" format="color|reference" />
+        <attr name="fileChooserNewFolderBackgroundColor" format="color|reference" />
+        <attr name="fileChooserNewFolderWidthWeight" format="float|reference" />
+        <attr name="fileChooserNewFolderElevation" format="integer|reference" />
+        <attr name="fileChooserNewFolderTextColor" format="color|reference" />
+        <attr name="fileChooserNewFolderSoftInputMode" format="flags">
+            <flag name="adjustUnspecified" value="0x00"/>
+            <flag name="adjustResize" value="0x10"/>
+            <flag name="adjustPan" value="0x20"/>
+            <flag name="adjustNothing" value="0x30"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="OtpViewTheme">
+        <attr format="reference" name="otpViewStyle"/>
+    </declare-styleable>
+
+    <declare-styleable name="OtpView">
+        <attr format="integer" name="OtpItemCount"/>
+        <attr format="dimension" name="OtpItemWidth"/>
+        <attr format="dimension" name="OtpItemHeight"/>
+        <attr format="dimension" name="OtpItemRadius"/>
+        <attr format="dimension" name="OtpItemSpacing"/>
+        <attr format="dimension" name="OtpLineWidth"/>
+        <attr format="reference|color" name="OtpLineColor"/>
+        <attr format="enum" name="OtpViewType">
+            <enum name="rectangle" value="0"/>
+            <enum name="line" value="1"/>
+            <enum name="none" value="2"/>
+        </attr>
+        <attr name="android:cursorVisible"/>
+        <attr name="android:textAllCaps"/>
+        <attr format="dimension" name="OtpCursorWidth"/>
+        <attr format="reference|color" name="OtpCursorColor"/>
+        <attr name="android:itemBackground"/>
+        <attr format="boolean" name="OtpHideLineWhenFilled"/>
+        <attr format="boolean" name="OtpState_filled"/>
+        <attr format="boolean" name="OtpRtlTextDirection"/>
+        <attr format="string" name="OtpMaskingChar"/>
+    </declare-styleable>
+    <declare-styleable name="StepperIndicator" tools:ignore="ResourceName">
+        <attr name="stpi_stepCount" format="integer"/>
+        <attr name="stpi_animDuration" format="integer"/>
+
+        <attr name="stpi_circleColor" format="color"/>
+        <attr name="stpi_circleRadius" format="dimension"/>
+        <attr name="stpi_circleStrokeWidth" format="dimension"/>
+
+        <attr name="stpi_indicatorColor" format="color"/>
+        <attr name="stpi_indicatorRadius" format="dimension"/>
+
+        <attr name="stpi_lineColor" format="color"/>
+        <attr name="stpi_lineDoneColor" format="color"/>
+        <attr name="stpi_lineStrokeWidth" format="dimension"/>
+        <attr name="stpi_lineMargin" format="dimension"/>
+
+        <attr name="stpi_showDoneIcon" format="boolean"/>
+        <attr name="stpi_showStepNumberInstead" format="boolean"/>
+        <attr name="stpi_doneIconDrawable" format="reference"/>
+
+        <attr name="stpi_useBottomIndicator" format="boolean"/>
+        <attr name="stpi_useBottomIndicatorWithStepColors" format="boolean"/>
+        <attr name="stpi_bottomIndicatorHeight" format="dimension"/>
+        <attr name="stpi_bottomIndicatorWidth" format="dimension"/>
+        <attr name="stpi_bottomIndicatorMarginTop" format="dimension"/>
+
+        <attr name="stpi_stepsCircleColors" format="reference"/>
+        <attr name="stpi_stepsIndicatorColors" format="reference"/>
+
+        <attr name="stpi_labels" format="reference"/>
+        <attr name="stpi_showLabels" format="boolean"/>
+        <attr name="stpi_labelMarginTop" format="dimension"/>
+        <attr name="stpi_labelSize" format="dimension"/>
+        <attr name="stpi_labelColor" format="color"/>
+    </declare-styleable>
+
+</resources>

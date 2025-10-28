@@ -1,0 +1,16 @@
+
+Lkotlin:S108P")Either remove or fill this block of code.(ö·ã€ÿÿÿÿÿ8¸‡Æ1
+Tkotlin:S1656ò"/Remove or correct this useless self-assignment.(ÂÙß¿úÿÿÿÿ8‚Ö¢Æ1
+=kotlin:S125$"Remove this commented out code.(ˆŞÉã8ÖüöÅ1
+5kotlin:S125'"Remove this commented out code.(ã†–z
+<kotlin:S1258"Remove this commented out code.(æ°d8÷ïÅ1
+=kotlin:S125<"Remove this commented out code.(© „ğ8÷ïÅ1
+=kotlin:S125C"Remove this commented out code.(§÷¾ë8Ÿ÷ïÅ1
+Ckotlin:S125…"Remove this commented out code.(ÿîà™üÿÿÿÿ8—˜·¨2
+=kotlin:S125š"Remove this commented out code.(è»»_8‘Ö¢Æ1
+Ckotlin:S125¹"Remove this commented out code.(»•‚çıÿÿÿÿ8’Ö¢Æ1
+>kotlin:S125Ë"Remove this commented out code.(ñã²ğ8”Ö¢Æ1
+>kotlin:S125ñ"Remove this commented out code.(ñã²ğ8•Ö¢Æ1
+\kotlin:S1144Ş"<Remove this unused private "setVideoSolutionAdapter" method.(˜¾Ùº8¡Ö¢Æ1
+skotlin:S1186Ş"ZAdd a nested comment explaining why this function is empty or complete the implementation.(˜¾Ùº
+Skotlin:S1066ì".Merge this "if" statement with the nested one.(Øé‹Üûÿÿÿÿ8¤Ö¢Æ1

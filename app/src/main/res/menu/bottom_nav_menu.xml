@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_home"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home"
+        android:iconTint="@color/secondary_gray"/>
+
+    <item
+        android:id="@+id/item_subjects"
+        android:title="@string/subjects"
+        android:icon="@drawable/ic_subjects"
+        android:iconTint="@color/secondary_gray"/>
+
+    <item
+        android:id="@+id/item_scan"
+        android:title=""
+        />
+
+    <item
+        android:id="@+id/item_test"
+        android:title="@string/practice"
+        android:icon="@drawable/ic_tests"
+        android:iconTint="@color/secondary_gray"/>
+
+    <item
+        android:id="@+id/item_leaderboard"
+        android:title="@string/leaderboard"
+        android:icon="@drawable/ic_leaderboard"
+        android:iconTint="@color/secondary_gray"/>
+</menu>

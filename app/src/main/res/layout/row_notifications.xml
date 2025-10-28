@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/_5sdp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/llMainNoti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/_15sdp"
+        android:gravity="center_vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.85"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvNotiTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Live Classes"
+                android:textColor="@color/heading_gray"
+                android:fontFamily="@font/nunito_bold"
+                android:textSize="@dimen/_10sdp"/>
+
+            <TextView
+                android:id="@+id/tvNotiDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Checkout upcoming live class by satendra sir on sunday
+4 pm at 26th March 2020"
+                android:maxLines="2"
+                android:textColor="@color/heading_gray"
+                android:fontFamily="@font/nunito_regular"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:textSize="@dimen/_10sdp"/>
+
+            <TextView
+                android:id="@+id/tvTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Just now"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:textColor="@color/secondary_gray"
+                android:fontFamily="@font/nunito_regular"
+                android:textSize="@dimen/_8sdp"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ivNotiIcon"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_weight="0.15"
+            android:src="@drawable/ic_user"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,60 @@
+
+Fkotlin:S108·")Either remove or fill this block of code.(ö·ã€ÿÿÿÿÿ
+Hkotlin:S108­")Either remove or fill this block of code.(¬‘ë8â  ß¨2
+Wkotlin:S1135Ù"2Complete the task associated to this TODO comment.(æ§¥£ùÿÿÿÿ8õÛ…à¨2
+Jkotlin:S1481ú",Remove this unused "seconds" local variable.(ÜìæÙşÿÿÿÿ
+Ekotlin:S1481ù",Remove this unused "minutes" local variable.(ŞñÚ
+Ekotlin:S1481"'Remove this unused "ol" local variable.(¾ÍºÁıÿÿÿÿ
+Dkotlin:S1481"+Remove this unused "objKey" local variable.(Üá·§
+Ukotlin:S1481Ü"0Remove this unused "isAPICalled" local variable.(°ıÌÄüÿÿÿÿ8Ü…à¨2
+Rkotlin:S1481½"2Remove this unused "currentSecond" local variable.(âøàÎ8¢¡ ß¨2
+Lkotlin:S1481Š"'Remove this unused "ol" local variable.(¾ÍºÁıÿÿÿÿ8¢¡ ß¨2
+Kkotlin:S1481‰"+Remove this unused "objKey" local variable.(Üá·§8£¡ ß¨2
+Skotlin:S1481Ñ".Remove this unused "remainder" local variable.(®ñ“°şÿÿÿÿ8Ü…à¨2
+Skotlin:S1481»".Remove this unused "remainder" local variable.(®ñ“°şÿÿÿÿ8Ü…à¨2
+;kotlin:S125h"Remove this commented out code.(¾İ¢óûÿÿÿÿ
+<kotlin:S125ï"Remove this commented out code.(«½°·ùÿÿÿÿ
+<kotlin:S125"Remove this commented out code.(×Òİ¶ıÿÿÿÿ
+6kotlin:S125›"Remove this commented out code.(Êæ
+7kotlin:S125§"Remove this commented out code.(ÆØ§İ
+7kotlin:S125ƒ"Remove this commented out code.(æ­Ã”
+<kotlin:S125’"Remove this commented out code.(§İòóùÿÿÿÿ
+Ckotlin:S125¸"Remove this commented out code.(§İòóùÿÿÿÿ8²èŸß¨2
+Ckotlin:S125Ó"Remove this commented out code.(¿–™¤úÿÿÿÿ8ç¡ ß¨2
+Ckotlin:S125‹"Remove this commented out code.(×Òİ¶ıÿÿÿÿ8ì¡ ß¨2
+=kotlin:S125˜"Remove this commented out code.(Êæ8î¡ ß¨2
+>kotlin:S125Ÿ"Remove this commented out code.(ÜÿªÀ8ï¡ ß¨2
+Ckotlin:S125Â"Remove this commented out code.(ÀµÑıÿÿÿÿ8ğ¡ ß¨2
+Ckotlin:S125Ù"Remove this commented out code.(æ§¥£ùÿÿÿÿ8Ó¨…à¨2
+Ckotlin:S125‚"Remove this commented out code.(ãèÌ—ûÿÿÿÿ8èÜ…à¨2
+>kotlin:S125‰"Remove this commented out code.(ğ•İ‘8éÜ…à¨2
+Ckotlin:S125“"Remove this commented out code.(Ë½Ã´ùÿÿÿÿ8êÜ…à¨2
+=kotlin:S125£"Remove this commented out code.(¦B8ñÜ…à¨2
+Ckotlin:S125º"Remove this commented out code.(îÿ¦Áûÿÿÿÿ8óÜ…à¨2
+Ckotlin:S125¼"Remove this commented out code.(Şÿ’ğÿÿÿÿÿ8õÜ…à¨2
+>kotlin:S125Ş"Remove this commented out code.(ú±¶8÷Ü…à¨2
+Ckotlin:S125ï"Remove this commented out code.(Âäñıÿÿÿÿ8ùÜ…à¨2
+>kotlin:S125ÿ"Remove this commented out code.(‰¦Ó8ÿÜ…à¨2
+Ckotlin:S125¡"Remove this commented out code.(µîæçúÿÿÿÿ8„İ…à¨2
+Ckotlin:S125®"Remove this commented out code.(¿÷‡±üÿÿÿÿ8†İ…à¨2
+>kotlin:S125ê"Remove this commented out code.(Â®††8İ…à¨2
+>kotlin:S125ğ"Remove this commented out code.(ÁßÃû8‘İ…à¨2
+Ckotlin:S125"Remove this commented out code.(ë¶²Æşÿÿÿÿ8˜İ…à¨2
+Ckotlin:S125×"Remove this commented out code.(¢©âÀÿÿÿÿÿ8šİ…à¨2
+=kotlin:S125â"Remove this commented out code.(ø­ıt8›İ…à¨2
+>kotlin:S125ñ"Remove this commented out code.(´¬8œİ…à¨2
+Ckotlin:S125÷"Remove this commented out code.(•ê­‰üÿÿÿÿ8İ…à¨2
+Ckotlin:S125‚	"Remove this commented out code.(ĞæÂóüÿÿÿÿ8İ…à¨2
+>kotlin:S125…	"Remove this commented out code.(…¾ŠÂ8¡İ…à¨2
+rkotlin:S1871ò"MThis branch's code block is the same as the block for the branch on line 749.(ÒÌâ–øÿÿÿÿ8¿İ…à¨2
+rkotlin:S3776ó"RRefactor this method to reduce its Cognitive Complexity from 36 to the 15 allowed.(úò­8ÏĞ»»†1
+wkotlin:S3776ä"RRefactor this method to reduce its Cognitive Complexity from 39 to the 15 allowed.(†ş Ôüÿÿÿÿ8Î¢ ß¨2
+wkotlin:S3776…"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(æòŸåÿÿÿÿÿ8åİ…à¨2
+qkotlin:S117‹"SRename this local variable to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(³»€`8òİ…à¨2
+Ukotlin:S1144ÿ"5Remove this unused private "buildMediaSource" method.(íËœ€8Ş…à¨2
+Rkotlin:S1144Ñ"2Remove this unused private "releasePlayer" method.(³‡ìö8½Ş…à¨2
+zkotlin:S1186ü"ZAdd a nested comment explaining why this function is empty or complete the implementation.(ÄÀ¦é8ÒŞ…à¨2
+zkotlin:S1186Û"ZAdd a nested comment explaining why this function is empty or complete the implementation.(ã·±Ô8¥£ ß¨2
+kotlin:S1186ã"ZAdd a nested comment explaining why this function is empty or complete the implementation.(ÎÎ½„úÿÿÿÿ8ÓŞ…à¨2
+Skotlin:S1066²".Merge this "if" statement with the nested one.(Âû¹Èÿÿÿÿÿ8®£ ß¨2
+Nkotlin:S1066³".Merge this "if" statement with the nested one.(¬‘ë8İŞ…à¨2

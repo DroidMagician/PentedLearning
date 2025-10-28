@@ -1,0 +1,29 @@
+
+Ekotlin:S108Q")Either remove or fill this block of code.(˜ßûıûÿÿÿÿ
+@kotlin:S108S")Either remove or fill this block of code.(å¥‡
+Rkotlin:S1172¿"2Use "_" instead of these unused lambda parameters.(±ö÷«8Ş®œ¨2
+Okotlin:S1656"/Remove or correct this useless self-assignment.(…„§÷8‘¯œ¨2
+?kotlin:S1481W"'Remove this unused "r1" local variable.(š§Ş
+Akotlin:S1481V")Remove this unused "dip1" local variable.(Ì’İì
+Gkotlin:S1481?"*Remove this unused "width" local variable.(ºşõªøÿÿÿÿ
+Ckotlin:S14816"&Remove this unused "r" local variable.(‹ÉÁßıÿÿÿÿ
+@kotlin:S14815"(Remove this unused "dip" local variable.(çÅ
+Pkotlin:S1481/"3Remove this unused "smoothScroller" local variable.(–‰ñûÿÿÿÿ
+Okotlin:S1481Ë"/Remove this unused "finalValue" local variable.(Êš‹¼8Õ¯œ¨2
+;kotlin:S125O"Remove this commented out code.(†ÉÏùÿÿÿÿ
+;kotlin:S125n"Remove this commented out code.(ÿÎ³¦øÿÿÿÿ
+Ckotlin:S125‡"Remove this commented out code.(ÿîà™üÿÿÿÿ8œĞœ¨2
+Ckotlin:S125—"Remove this commented out code.(‹ôµîüÿÿÿÿ8œ°œ¨2
+=kotlin:S125 "Remove this commented out code.(Ã´‚?8Ÿ°œ¨2
+>kotlin:S125®"Remove this commented out code.(É»†²8¡°œ¨2
+Ckotlin:S125¼"Remove this commented out code.(ÛşĞüÿÿÿÿ8‡·Á¤ã2
+Ckotlin:S125¾"Remove this commented out code.(ôÙÆõøÿÿÿÿ8¯°œ¨2
+>kotlin:S125Ê"Remove this commented out code.(’¤“8´°œ¨2
+Ckotlin:S125à"Remove this commented out code.(İù“˜øÿÿÿÿ8º°œ¨2
+6kotlin:S125è"Remove this commented out code.(úë—
+Ckotlin:S125¤"Remove this commented out code.(Şë¦ùøÿÿÿÿ8Â°œ¨2
+Ckotlin:S125°"Remove this commented out code.(¡ÁÁ‘üÿÿÿÿ8Å°œ¨2
+<kotlin:S125µ"Remove this commented out code.(éÓ®ãùÿÿÿÿ
+Ckotlin:S125Ì"Remove this commented out code.(èìÒøÿÿÿÿ8Ñ°œ¨2
+okotlin:S3776)"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(¶Á»¬şÿÿÿÿ
+wkotlin:S117‰"SRename this local variable to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(¸¢„•ûÿÿÿÿ8‹±œ¨2

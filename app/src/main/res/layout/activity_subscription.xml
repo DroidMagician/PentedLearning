@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="viewModel"
+            type="com.pented.learningapp.homeScreen.subscription.viewModel.SubscriptionVM" />
+    </data>
+    <FrameLayout
+        android:id="@+id/mainFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_70sdp"
+                app:cardCornerRadius="@dimen/_25sdp"
+                app:cardElevation="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_minus15sdp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_30sdp"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginEnd="@dimen/_20sdp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center_vertical">
+
+                        <ImageView
+                            android:id="@+id/ivBack"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_back_noti"
+                            android:padding="@dimen/_3sdp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/subscription"
+                            android:textColor="@color/heading_gray"
+                            android:fontFamily="@font/nunito_semibold"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:textSize="@dimen/_14sdp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:gravity="center"
+                        android:id="@+id/lilContactNumber"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:src="@drawable/ic_call"
+                            android:layout_height="wrap_content">
+                        </ImageView>
+                        <TextView
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:layout_width="wrap_content"
+                            android:text="Contact us"
+                            style="@style/MediumText"
+                            android:textSize="@dimen/_12ssp"
+                            android:textColor="@color/primary"
+                            android:layout_height="wrap_content"></TextView>
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+            <RelativeLayout
+
+                android:id="@+id/activity_main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <androidx.core.widget.NestedScrollView
+                    android:layout_width="match_parent"
+                    android:layout_above="@+id/below_layout"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:paddingBottom="@dimen/_20sdp"
+                        android:layout_gravity="center|top"
+                        android:gravity="center|top"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="match_parent"
+                            style="@style/BoldText"
+                            android:layout_marginTop="@dimen/_30sdp"
+                            android:text="Choose your subscription"
+                            android:textSize="@dimen/_22sdp"
+                            android:layout_height="wrap_content">
+
+                        </TextView>
+                        <TextView
+                            android:layout_marginTop="@dimen/_5sdp"
+                            style="@style/NormalText600"
+                            android:textSize="@dimen/_14ssp"
+                            android:layout_width="match_parent"
+                            android:textColor="@color/secondary_gray"
+                            android:text="Please select subjects"
+                            android:layout_height="wrap_content">
+
+                        </TextView>
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_15sdp"
+                            tools:itemCount="2"
+                            tools:listitem="@layout/row_select_subjects_new"
+                            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                            android:visibility="visible"
+                            android:id="@+id/rvSubjects"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            style="@style/BoldText"
+                            android:layout_marginTop="@dimen/_20sdp"
+                            android:text="Share our app and "
+                            android:textSize="@dimen/_14ssp"
+                            android:layout_height="wrap_content">
+
+                        </TextView>
+                        <TextView
+                            android:layout_marginTop="@dimen/_5sdp"
+                            style="@style/BoldText"
+                            android:textSize="@dimen/_18ssp"
+                            android:layout_width="match_parent"
+                            android:text="GET FREE EXTENSION !!"
+                            android:layout_height="wrap_content">
+
+                        </TextView>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:src="@drawable/cuate"
+                            android:layout_height="@dimen/_180sdp">
+
+                        </ImageView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:textSize="@dimen/_10ssp"
+                            style="@style/MediumText"
+                            android:text="Copy this app link and share with your friends, You will get 15 days free extension for each friend that joins our app. Happy learning !!"
+                            android:layout_height="wrap_content">
+
+                        </TextView>
+                        <RelativeLayout
+                            android:layout_marginTop="@dimen/_10ssp"
+                            android:layout_marginBottom="@dimen/_30sdp"
+                            android:layout_width="match_parent"
+                            android:padding="@dimen/_10sdp"
+                            android:minHeight="@dimen/_35sdp"
+                            android:background="@drawable/fill_copylink_bg"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_toLeftOf="@+id/txtCopyLink"
+                                style="@style/NormalText"
+                                android:id="@+id/txtLinkURL"
+                                android:layout_centerVertical="true"
+                                android:layout_alignParentLeft="true"
+                                android:textSize="@dimen/_8ssp"
+                                android:text="https://play.google.com/store/apps/details?id=com.pented.learningapp"
+                                android:layout_height="wrap_content">
+
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:text="Copy link"
+                                android:id="@+id/txtCopyLink"
+                                style="@style/BoldText"
+                                android:layout_centerVertical="true"
+                                android:layout_alignParentRight="true"
+                                android:textSize="@dimen/_8ssp"
+                                android:textColor="@color/primary"
+                                android:layout_height="wrap_content">
+
+                            </TextView>
+                        </RelativeLayout>
+                    </LinearLayout>
+                </androidx.core.widget.NestedScrollView>
+                <LinearLayout
+                    android:layout_alignParentBottom="true"
+                    android:id="@+id/below_layout"
+                    android:visibility="gone"
+                    android:background="@drawable/bottom_bg"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="@dimen/_minus2sdp"
+                    android:paddingTop="@dimen/_20sdp"
+                    android:paddingBottom="@dimen/_15sdp"
+                    android:layout_height="wrap_content">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:paddingLeft="@dimen/_15sdp"
+                        android:paddingRight="@dimen/_15sdp"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="₹ 1200 / Month"
+                            android:id="@+id/txtPrice"
+                            android:layout_alignParentLeft="true"
+                            style="@style/NormalText600"
+                            android:textSize="@dimen/_14ssp"
+                            android:layout_height="wrap_content">
+
+                        </TextView>
+                        <ImageView
+                            android:layout_toLeftOf="@+id/txtApplyCouponCode"
+                            android:layout_width="wrap_content"
+                            android:src="@drawable/ic_dot"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:layout_marginRight="@dimen/_5sdp"
+                            android:id="@+id/greenDot"
+                            android:layout_centerVertical="true"
+                            android:visibility="visible"
+                            android:layout_height="wrap_content">
+
+                        </ImageView>
+                        <TextView
+                            android:layout_alignParentRight="true"
+                            android:layout_width="wrap_content"
+                            android:text="Apply coupon code"
+                            android:id="@+id/txtApplyCouponCode"
+                            android:textColor="@color/primary"
+                            style="@style/NormalText600"
+                            android:textSize="@dimen/_14ssp"
+                            android:layout_height="wrap_content">
+
+                        </TextView>
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="@dimen/_7sdp"
+                        android:background="#FBFBFB"
+                        android:id="@+id/enterCodeLayout"
+                        android:visibility="gone"
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:layout_marginRight="@dimen/_15sdp"
+                        android:layout_height="@dimen/_40sdp">
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:gravity="center|left"
+                            android:layout_height="wrap_content">
+                            <EditText
+                                android:layout_width="match_parent"
+                                android:paddingTop="0dp"
+                                android:id="@+id/edtCouponCode"
+                                android:paddingBottom="0dp"
+                                android:paddingLeft="@dimen/_25sdp"
+                                android:paddingRight="@dimen/_70sdp"
+                                android:textAllCaps="true"
+                                android:inputType="textCapCharacters"
+                                android:maxLength="20"
+                                android:imeOptions="actionDone"
+                                android:maxLines="1"
+                                android:hint="Enter Code"
+                                android:backgroundTint="@android:color/transparent"
+                                android:layout_height="@dimen/_40sdp">
+                            </EditText>
+                            <ImageView
+                                android:layout_width="@dimen/_17sdp"
+                                android:layout_gravity="center|left"
+                                android:src="@drawable/ic_card_giftcard"
+                                android:layout_height="@dimen/_17sdp"
+                                app:tint="#F2994A">
+                            </ImageView>
+                        </FrameLayout>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Submit"
+                            android:id="@+id/txtSubmit"
+                            android:textSize="@dimen/_14ssp"
+                            style="@style/BoldText"
+                            android:textColor="@color/primary"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_height="wrap_content"></TextView>
+                    </RelativeLayout>
+                    <View
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_width="match_parent"
+                        android:background="#F2F2F2"
+                        android:layout_height="@dimen/_1sdp">
+
+                    </View>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="@dimen/_15sdp"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:id="@+id/btnGetCall"
+                            android:layout_alignParentLeft="true"
+                            android:layout_width="@dimen/_140sdp"
+                            android:src="@drawable/get_call_back"
+                            android:layout_height="@dimen/_40sdp"/>
+                        <ImageView
+                            android:id="@+id/btnPurchaseNow"
+                            android:layout_alignParentRight="true"
+                            android:layout_width="@dimen/_140sdp"
+                            android:src="@drawable/purchase_now"
+                            android:layout_height="@dimen/_40sdp"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+        <include
+            android:visibility="gone"
+            layout="@layout/transparent_progressbar_layout" />
+
+    </FrameLayout>
+
+</layout>

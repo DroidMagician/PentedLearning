@@ -1,0 +1,32 @@
+
+Fkotlin:S108¿")Either remove or fill this block of code.(ö·ã€ÿÿÿÿÿ
+Jkotlin:S1481õ"1Remove this unused "outputFormat" local variable.(ç±şù
+Lkotlin:S1481Æ".Remove this unused "animation" local variable.(Õ•·Şûÿÿÿÿ
+Lkotlin:S1481ú".Remove this unused "userImage" local variable.(óÇ·’øÿÿÿÿ
+7kotlin:S125Ô"Remove this commented out code.(ş—‹
+7kotlin:S125ó"Remove this commented out code.(æ¦˜
+<kotlin:S125Œ"Remove this commented out code.(ÑâÇŒüÿÿÿÿ
+<kotlin:S125¤"Remove this commented out code.(¶Ïš¡øÿÿÿÿ
+7kotlin:S125÷"Remove this commented out code.(ÑÓà¶
+<kotlin:S125"Remove this commented out code.(ş‡Õšûÿÿÿÿ
+>kotlin:S125Ä"Remove this commented out code.(Ì¦úâ8³Ùîš€3
+Ckotlin:S125û"Remove this commented out code.(¾’ÖŒşÿÿÿÿ8´Ùîš€3
+>kotlin:S125Ê"Remove this commented out code.(»‘½8¶Ùîš€3
+>kotlin:S125Ó"Remove this commented out code.(»ıºÅ8·Ùîš€3
+Ckotlin:S125ì"Remove this commented out code.(çáã’ûÿÿÿÿ8¹Ùîš€3
+>kotlin:S125¨"Remove this commented out code.(Ñ•Şí8ºÙîš€3
+Ckotlin:S125±"Remove this commented out code.(áü»˜øÿÿÿÿ8¼Ùîš€3
+>kotlin:S125×"Remove this commented out code.(Ñ•Şí8¾Ùîš€3
+Ckotlin:S125à"Remove this commented out code.(áü»˜øÿÿÿÿ8¿Ùîš€3
+>kotlin:S125…"Remove this commented out code.(ûæèç8ÀÙîš€3
+>kotlin:S125«"Remove this commented out code.(Ú‚âÛ8ÁÙîš€3
+=kotlin:S125Ó"Remove this commented out code.(ø­ıt8Õûíš€3
+>kotlin:S125×"Remove this commented out code.(‚¶ïØ8ÄÙîš€3
+Ckotlin:S125à"Remove this commented out code.(ÎåãÎşÿÿÿÿ8ÆÙîš€3
+Ckotlin:S125ú"Remove this commented out code.(¡Ù½Èúÿÿÿÿ8ÈÙîš€3
+Ckotlin:S125™	"Remove this commented out code.(¢ºˆ¢øÿÿÿÿ8ÊÙîš€3
+>kotlin:S125Ÿ	"Remove this commented out code.(‡²Í¤8ÏÙîš€3
+lkotlin:S3776Œ"SRefactor this method to reduce its Cognitive Complexity from 100 to the 15 allowed.(úò­
+rkotlin:S3776©"RRefactor this method to reduce its Cognitive Complexity from 49 to the 15 allowed.(îı§û8ŠÚîš€3
+skotlin:S1186í"ZAdd a nested comment explaining why this function is empty or complete the implementation.(­ïã
+ykotlin:S1186¿"ZAdd a nested comment explaining why this function is empty or complete the implementation.(ÛÆ<8ÀÚîš€3

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="model"
+            type="com.pented.learningapp.homeScreen.home.model.GetHomeDataResponseModel.Subject" />
+
+        <variable
+            name="click"
+            type="android.view.View.OnClickListener" />
+
+        <import type="android.view.View" />
+    </data>
+<RelativeLayout
+    android:id="@+id/mainLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingEnd="@dimen/_5sdp"
+    android:onClick="@{(v)->click.onClick(v)}"
+    android:layout_marginBottom="@dimen/_20sdp">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/rlProgress"
+            android:layout_width="@dimen/_86sdp"
+            android:layout_height="@dimen/_86sdp"
+            android:background="@drawable/disable_bg">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_centerInParent="true">
+
+                <ImageView
+                    android:id="@+id/ivSubjectIcon"
+                    android:layout_width="@dimen/_38sdp"
+                    android:layout_height="@dimen/_38sdp"
+                    android:scaleType="fitXY"
+                    app:itemMyImageURL="@{model.s3Bucket}" />
+
+                <TextView
+                    android:id="@+id/tvSubjectName"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="@dimen/_12sdp"
+                    android:layout_marginRight="@dimen/_12sdp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@{model.name}"
+                    android:textColor="@color/darkest_gray"
+                    android:fontFamily="@font/nunito_regular"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:textSize="@dimen/_10sdp"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+        <com.pented.learningapp.widget.circularprogressindicator.CircularProgressIndicator
+            android:id="@+id/circular_progress"
+            android:layout_width="@dimen/_88sdp"
+            android:layout_height="@dimen/_88sdp"
+            app:progressBackgroundStrokeWidth="0sp"
+            app:progressStrokeWidth="@dimen/_2sdp"
+            app:progressBackgroundColor="@android:color/transparent"
+            app:dotWidth="@dimen/_7sdp"
+            app:enableProgressAnimation="true"
+            app:setCircleProgress="@{model.completedPercentage}"
+            app:textSize="0sp"
+            android:layout_gravity="center"
+            app:direction="clockwise" />
+
+        <ImageView
+            android:id="@+id/ivLockThumb"
+            android:layout_gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            app:setLockFreeIconForSubjects="@{model.isLock}"
+            android:src="@drawable/ic_lock"/>
+
+    </FrameLayout>
+
+
+</RelativeLayout>
+</layout>

@@ -1,0 +1,31 @@
+
+Fkotlin:S108")Either remove or fill this block of code.(ö·ã€ÿÿÿÿÿ
+Jkotlin:S1481´"1Remove this unused "outputFormat" local variable.(ç±şù
+dkotlin:S101ò"LRename class "sortItems" to match the regular expression ^[A-Z][a-zA-Z0-9]*$(ŒÛÔ
+6kotlin:S125k"Remove this commented out code.(’Íšõ
+<kotlin:S125€"Remove this commented out code.(¡Ù½Èúÿÿÿÿ
+<kotlin:S125"Remove this commented out code.(Í˜´üÿÿÿÿ
+<kotlin:S125 "Remove this commented out code.(ˆíÁ“ıÿÿÿÿ
+<kotlin:S125©"Remove this commented out code.(«¦”¬úÿÿÿÿ
+7kotlin:S125°"Remove this commented out code.(ºš‹Û
+7kotlin:S125¶"Remove this commented out code.(ÑÓà¶
+7kotlin:S125æ"Remove this commented out code.(™š„İ
+<kotlin:S125¼"Remove this commented out code.(ÿîà™üÿÿÿÿ
+7kotlin:S125í"Remove this commented out code.(Œœ“š
+7kotlin:S125”"Remove this commented out code.(¥Ä×
+<kotlin:S125¿"Remove this commented out code.(¯ÌŒèøÿÿÿÿ
+<kotlin:S125Ñ"Remove this commented out code.(¯ÌŒèøÿÿÿÿ
+7kotlin:S125Ü"Remove this commented out code.(“í©æ
+<kotlin:S125"Remove this commented out code.(©Ëíôüÿÿÿÿ
+<kotlin:S125ğ"Remove this commented out code.(ìœºŒÿÿÿÿÿ
+<kotlin:S125œ"Remove this commented out code.(³Éÿ¼üÿÿÿÿ
+hkotlin:S1192Õ"PDefine a constant instead of duplicating this literal "In Between TIme" 3 times.(÷ÕÏ 
+vkotlin:S1192‚"XDefine a constant instead of duplicating this literal "No recorded video found" 4 times.(°”„Çşÿÿÿÿ
+fkotlin:S1192Œ"MDefine a constant instead of duplicating this literal "No app found" 7 times.(„Îƒó
+kkotlin:S1871†"MThis branch's code block is the same as the block for the branch on line 376.(„£ô‡ùÿÿÿÿ
+kkotlin:S1871¥"MThis branch's code block is the same as the block for the branch on line 758.(„£ô‡ùÿÿÿÿ
+kkotlin:S3776"RRefactor this method to reduce its Cognitive Complexity from 34 to the 15 allowed.(úò­
+jkotlin:S3776Õ"RRefactor this method to reduce its Cognitive Complexity from 34 to the 15 allowed.(ÁÆĞ*
+lkotlin:S3776å"SRefactor this method to reduce its Cognitive Complexity from 137 to the 15 allowed.(ıÉ”æ
+Gkotlin:S1144‡".Remove this unused private "sortArray" method.(úË•‘
+rkotlin:S1186t"ZAdd a nested comment explaining why this function is empty or complete the implementation.(­ïã

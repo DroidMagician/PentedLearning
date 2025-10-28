@@ -1,0 +1,14 @@
+
+Zkotlin:S1172±"<Use "_" instead of this unused lambda parameter "animation".(¯ŸõŠøÿÿÿÿ
+ckotlin:S1763Ó"JRefactor this piece of code to not have any dead code after this "return".(Á×î‰
+1kotlin:S1128"Remove this unused import.(Þ‚½
+1kotlin:S1128"Remove this unused import.(îâœu
+7kotlin:S1128"Remove this unused import.(ÚÚÙÁúÿÿÿÿ
+2kotlin:S1128"Remove this unused import.(Ý˜Æ‚
+=kotlin:S1253"Remove this commented out code.(¼ëëœ8¼÷âŠ¥1
+;kotlin:S125O"Remove this commented out code.(¯èñÝûÿÿÿÿ
+6kotlin:S125y"Remove this commented out code.(ä¾…Ã
+7kotlin:S125"Remove this commented out code.(–±Ù
+<kotlin:S125ð"Remove this commented out code.(ëû¹þÿÿÿÿ
+kkotlin:S117ã"NRename this parameter to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(û‡ž¹úÿÿÿÿ
+kkotlin:S117ä"NRename this parameter to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(…úºçÿÿÿÿÿ

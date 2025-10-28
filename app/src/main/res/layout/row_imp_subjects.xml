@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="model"
+            type="com.pented.learningapp.homeScreen.home.model.GetHomeDataResponseModel.Subject" />
+
+        <variable
+            name="click"
+            type="android.view.View.OnClickListener" />
+
+        <import type="android.view.View" />
+    </data>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_10sdp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/lilMain"
+        android:onClick="@{(v)->click.onClick(v)}"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/ivPlanetLeft"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            app:itemMyImageURL="@{model.s3Bucket}" />
+        <LinearLayout
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                style="@style/BoldText"
+                android:text="@{model.name}"
+                android:textSize="@dimen/_12ssp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="match_parent"
+                style="@style/NormalText"
+                android:visibility="gone"
+                android:textSize="@dimen/_8ssp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+</layout>

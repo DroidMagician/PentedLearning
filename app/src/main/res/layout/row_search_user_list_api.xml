@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="model"
+            type="com.pented.learningapp.authScreens.model.GetSchoolNameResponseModel.Data" />
+
+        <variable
+            name="click"
+            type="android.view.View.OnClickListener" />
+
+        <import type="android.view.View" />
+    </data>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:onClick="@{(v)->click.onClick(v)}"
+    android:orientation="vertical"
+    android:background="@{model.selected == true ? @color/light_orange: @color/white}"
+    android:id="@+id/mainLayout"
+    android:layout_marginTop="@dimen/_2sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingTop="@dimen/_8sdp"
+        android:paddingLeft="@dimen/_15sdp"
+        android:paddingBottom="@dimen/_8sdp"
+        android:paddingRight="@dimen/_15sdp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1.25"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+<!--            <RelativeLayout-->
+<!--                android:id="@+id/layoutforprofileimage"-->
+<!--                android:layout_width="@dimen/_37sdp"-->
+<!--                android:layout_height="@dimen/_45sdp">-->
+
+<!--                <de.hdodenhof.circleimageview.CircleImageView-->
+<!--                    android:id="@+id/image"-->
+<!--                    android:layout_width="@dimen/_35sdp"-->
+<!--                    app:loadCircleImageApi="@{model.s3Bucket}"-->
+<!--                    android:layout_height="@dimen/_40sdp" />-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/text"-->
+<!--                    android:layout_width="@dimen/_20sdp"-->
+<!--                    android:layout_height="@dimen/_20sdp"-->
+<!--                    android:scaleType="fitStart"-->
+<!--                    android:gravity="center"-->
+<!--                    android:src="@drawable/badge"-->
+<!--                    android:adjustViewBounds="true"-->
+<!--                    android:visibility="gone"-->
+<!--                    android:layout_gravity="center_horizontal"-->
+<!--                    android:layout_alignParentBottom="true"-->
+<!--                    android:layout_alignParentEnd="true"-->
+<!--                    />-->
+
+<!--            </RelativeLayout>-->
+            <LinearLayout
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="top"
+                android:gravity="top"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    style="@style/BoldText"
+                    android:layout_gravity="top"
+                    android:text="@{model.value}"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textSize="@dimen/_12ssp"
+                    android:layout_height="wrap_content">
+                </TextView>
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:orientation="horizontal"-->
+<!--                    android:layout_gravity="bottom"-->
+<!--                    android:gravity="bottom"-->
+<!--                    android:layout_marginTop="@dimen/_4sdp"-->
+<!--                    android:layout_height="wrap_content">-->
+<!--                    <ImageView-->
+<!--                        android:layout_width="@dimen/_16sdp"-->
+<!--                        app:loadImage="@{model.badgeImage}"-->
+<!--                        android:layout_height="@dimen/_17sdp">-->
+<!--                    </ImageView>-->
+<!--                    <TextView-->
+<!--                        android:layout_marginLeft="@dimen/_5sdp"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        style="@style/NormalText"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:text="@{model.levelTitle}"-->
+<!--                        android:textSize="@dimen/_8ssp"-->
+<!--                        android:layout_height="wrap_content">-->
+<!--                    </TextView>-->
+<!--                </LinearLayout>-->
+            </LinearLayout>
+        </LinearLayout>
+<!--        <LinearLayout-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_weight="0.75"-->
+<!--            android:orientation="vertical"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_height="wrap_content">-->
+<!--            <TextView-->
+<!--                android:layout_marginLeft="@dimen/_5sdp"-->
+<!--                android:layout_width="match_parent"-->
+<!--                style="@style/NormalText"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:text="@{`All India rank: `+model.ranking }"-->
+<!--                android:textSize="@dimen/_8ssp"-->
+<!--                android:layout_height="wrap_content">-->
+<!--            </TextView>-->
+<!--            <TextView-->
+<!--                android:layout_marginLeft="@dimen/_5sdp"-->
+<!--                android:layout_width="match_parent"-->
+<!--                style="@style/NormalText600"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:text="@{`Points : `+model.points}"-->
+<!--                android:textSize="@dimen/_13ssp"-->
+<!--                android:layout_height="wrap_content">-->
+<!--            </TextView>-->
+<!--        </LinearLayout>-->
+    </LinearLayout>
+
+</LinearLayout>
+</layout>

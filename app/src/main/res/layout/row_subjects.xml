@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/mainSubject"
+    android:layout_marginTop="@dimen/_10sdp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/_20sdp"
+        android:paddingRight="@dimen/_20sdp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/txtName"
+                    style="@style/NormalText"
+                    android:textSize="@dimen/_12ssp"
+                    android:layout_width="wrap_content"
+                    android:text="Rationals &amp; Numbers"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:layout_height="wrap_content">
+                <TextView
+                    style="@style/NormalText"
+                    android:id="@+id/txtDescription"
+                    android:textSize="@dimen/_6ssp"
+                    android:layout_width="wrap_content"
+                    android:text="Description of the chapter comes here."
+                    android:layout_height="wrap_content">
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_gravity="center|left"
+            android:gravity="center|left"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="1.3"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true">
+                <com.skydoves.progressview.ProgressView
+                    android:id="@+id/progressView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_6sdp"
+                    app:progressView_autoAnimate="true"
+                    app:progressView_colorBackground="@color/lightGray"
+                    app:progressView_colorProgress="@color/primary"
+                    app:progressView_labelColorInner="@color/white"
+                    app:progressView_labelColorOuter="@color/black"
+                    app:progressView_labelSize="0dp"
+                    app:progressView_labelSpace="0dp"
+                    app:progressView_labelText=""
+                    app:progressView_min="0"
+                    app:progressView_orientation="horizontal"
+                    app:progressView_padding="1dp"
+                    app:progressView_progressFromPrevious="true"
+                    app:progressView_radius="12dp" />
+
+                <ImageView
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_line_progress"/>
+
+                <ImageView
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_line_progress_fill"/>
+
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:layout_height="wrap_content">
+                <TextView
+                    style="@style/NormalText"
+                    android:id="@+id/txtPoints"
+                    android:textSize="@dimen/_8ssp"
+                    android:layout_width="wrap_content"
+                    android:text="670 points left"
+                    android:layout_height="wrap_content">
+                </TextView>
+            </LinearLayout>
+
+        </LinearLayout>
+        <View
+            android:id="@+id/saperater"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/background"/>
+    </LinearLayout>
+
+</LinearLayout>

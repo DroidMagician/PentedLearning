@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "73588492460",
+    "project_id": "pentedapp-ae86b",
+    "storage_bucket": "pentedapp-ae86b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73588492460:android:59765b69083d3164b03709",
+        "android_client_info": {
+          "package_name": "com.pented.learningapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "73588492460-a47re8sjmc5lukfrl1po9vh493hnaic3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pented.learningapp",
+            "certificate_hash": "e1b907cb20d6943df302a1f338d8493a2f12e33a"
+          }
+        },
+        {
+          "client_id": "73588492460-6pircb2gv5ssscbrq3ivookc764v18ak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZs6tH_e2jtUKwi_NLmwXe_vws0BCTpVg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "73588492460-6pircb2gv5ssscbrq3ivookc764v18ak.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

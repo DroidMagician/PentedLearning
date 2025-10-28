@@ -1,0 +1,158 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Pented</string>
+
+    <!--Get Started-->
+    <string name="get_started">Get started</string>
+    <string name="enter_your_phone">Enter your phone number to start</string>
+    <string name="phone_number">Phone number</string>
+    <string name="cont">Continue</string>
+    <string name="use_security_code">Use security code to</string>
+    <string name="sign_in">Sign in</string>
+    <string name="crop_image_activity_title"></string>
+    <string name="crop_image_menu_rotate_left">Rotate counter clockwise</string>
+    <string name="crop_image_menu_rotate_right">Rotate</string>
+    <string name="crop_image_menu_crop">Crop</string>
+    <string name="crop_image_menu_flip">Flip</string>
+    <string name="crop_image_menu_flip_horizontally">Flip horizontally</string>
+    <string name="crop_image_menu_flip_vertically">Flip vertically</string>
+    <string name="content_des">PDF PAGE</string>
+    <string name="pick_image_intent_chooser_title">Select source</string>
+    <string name="part">Parts</string>
+    <string name="crop_image_activity_no_permissions">Cancelling, required permissions are not granted</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+
+    <string name="blueprint">Blueprint</string>
+
+    <!--OTP-->
+    <string name="back">Back</string>
+    <string name="change_standard">Change Standard:</string>
+    <string name="one_time_password">One time password</string>
+    <string name="we_have_sent_otp">We have sent an OTP to your number</string>
+    <string name="resend_otp">Resend OTP</string>
+
+
+    <string name="exo_track_resolution_pixel" translatable="false"><xliff:g id="height" example="768">%1$dp</xliff:g></string>
+    <string name="qualitySelector" translatable="false">Select Quality</string>
+    <string name="okdialog" translatable="false">Ok</string>
+    <string name="cancelDialog" translatable="false">Cancel</string>
+
+    <!--Security Question-->
+    <string name="your_security_question">Your security question</string>
+    <string name="please_answer_your_security_question">Please answer your security question\nto reset the password</string>
+    <string name="type_your_ans_here">Type your answer here</string>
+
+    <!--Register-->
+    <string name="register_yourself">Register yourself</string>
+    <string name="hello_lets_get">Hello, Let\'s get you registered with us</string>
+    <string name="student_name">Student name</string>
+    <string name="your_class_std">Your class / Standard</string>
+    <string name="register_myself">Register myself</string>
+    <string name="enter_other_details">Enter other details</string>
+    <string name="please_enter_other_details">Please enter other details</string>
+    <string name="personal_details">Personal details</string>
+    <string name="upload_pro_pic">Upload profile picture</string>
+    <string name="use_cam_or_upload">Use camera or upload from gallery</string>
+    <string name="enter_your_email_id">Enter your email id</string>
+    <string name="about_yourself">About yourself</string>
+    <string name="security_ques">Security Question</string>
+    <string name="we_will_use_this_answer">We will use this answer for emergency cases</string>
+    <string name="add_your_security_que">Add your security question</string>
+    <string name="skip_this_step">Skip this step</string>
+    <string name="confirm">Confirm</string>
+
+
+    <string name="home">Home</string>
+    <string name="subjects">Subjects</string>
+    <string name="scan">Scan</string>
+    <string name="tests">Tests</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="search">Search...</string>
+    <string name="start_with_your_subjects">Start with your subjects</string>
+    <string name="today_live_classes">Today live classes</string>
+    <string name="attend_live_classes_by_experts">Attend live classes by experts</string>
+    <string name="subscribe_up_with_our_weekly_tests">Subscribe up with our weekly tests</string>
+    <string name="exam_blueprints">Text Books</string>
+    <string name="final_structure_of_your_exam_paper">Final structure of your exam paper</string>
+    <string name="ask_doubts">Ask doubts</string>
+    <string name="send_us_your_doubts">Send us your doubts</string>
+    <string name="all_doubts_resolved_please_check">All doubts resolved please check</string>
+    <string name="the_champ">The Champ</string>
+
+
+    <string name="notifications">Notifications</string>
+    <string name="new_">New</string>
+    <string name="earlier_notifications">Earlier Notifications</string>
+
+
+    <string name="mathematics">Mathematics</string>
+    <string name="subscribe_this_subject">Subscribe this subject</string>
+    <string name="get_notifications_of">Get notifications of live classes, weekend tests and daily important questions for you to solve</string>
+    <string name="subscribed">\u2022 Subscribed</string>
+    <string name="dot">\u2022</string>
+    <string name="todays_important_questions">Today\’s Important questions</string>
+    <string name="just_solving_these_questions">Just solving these questions gets you 40% higher marks</string>
+
+
+    <string name="lets_start">Let\'s start</string>
+    <string name="linear_equations">Linear equations</string>
+    <string name="lets_try_our_heads">Let\’s try our heads around with some x and y</string>
+    <string name="start_now">Start now</string>
+
+
+    <string name="text_spaces">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</string>
+    <string name="e_no_internet">No internet connection</string>
+    <string name="weekend_test_series">Weekend test series</string>
+    <string name="check_important_links">Check important links</string>
+    <string name="download_important_questions">Download important questions</string>
+    <string name="ask_a_important_question">Ask a Important question</string>
+    <string name="question_answers">Question Answers</string>
+    <string name="enter_phon_number">Please enter phone number</string>
+    <string name="enter_valid_phon_number">Please enter valid phone number</string>
+    <string name="enter_OTP">Please enter OTP</string>
+    <string name="enter_valid_OTP">OTP must be 4 digit long</string>
+    <string name="enter_address">Enter your address</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="choose_photo">Choose Photo</string>
+    <string name="cancel">Cancel</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="enter_name">Enter your name</string>
+    <string name="practice">Practice</string>
+    <string name="Modal_question_paper">Modal question paper</string>
+    <string name="rational_and_numbers"><![CDATA[Rational & numbers ( Maths )]]></string>
+    <string name="leaderboards">Leaderboards</string>
+    <string name="profile">Profile</string>
+    <string name="subscription">Subscription</string>
+    <string name="places_api_key">"AIzaSyDCOOdj1IalxuAD6KV73UG1i6DDUDrW0XI"</string>
+    <string name="select_language">Please select your language.</string>
+    <string name="select_standard">Please select your standard.</string>
+    <string name="edit_profile_details">Edit Profile Details</string>
+    <string name="filter">Filter</string>
+    <string name="exit">Exit</string>
+    <string name="scanagain">Scan Again</string>
+    <string name="searchbystudentName">Search by student name</string>
+    <string name="searchCityName">Search by city name</string>
+    <string name="searchSchoolName">Search by school name</string>
+    <string name="ic_rotate_left_24" translatable="false">Rotate counter clockwise</string>
+
+    <string name="ic_rotate_right_24" translatable="false">Rotate</string>
+
+<!--    <string name="crop_image_menu_crop" tools:ignore="DuplicateDefinition">Crop</string>-->
+
+    <string name="ic_flip_24" translatable="false">Flip</string>
+
+    <string name="ic_flip_24_horizontally" translatable="false">Flip horizontally</string>
+
+    <string name="ic_flip_24_vertically" translatable="false">Flip vertically</string>
+
+    <string name="pick_image_chooser_title" translatable="false">Select source</string>
+
+    <string name="pick_image_camera" translatable="false">Camera</string>
+
+    <string name="pick_image_gallery" translatable="false">Gallery</string>
+
+    <string name="facebook_app_id" translatable="false">fb392577055083375</string>
+<!--    <string name="fb_login_protocol_scheme" translatable="false">fb392577055083375</string>-->
+    <string name="facebook_client_token" translatable="false">56789</string>
+    <string name="impquestion" translatable="false">IMP Questions</string>
+
+</resources>

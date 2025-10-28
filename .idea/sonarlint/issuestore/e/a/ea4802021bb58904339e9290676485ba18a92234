@@ -1,0 +1,43 @@
+
+Hkotlin:S108Ù")Either remove or fill this block of code.(å¥‡8Û”¬Ó«2
+Hkotlin:S108¼")Either remove or fill this block of code.(ÖÊ™8Ü”¬Ó«2
+Nkotlin:S1481ı".Remove this unused "exception" local variable.(•Ö‚á8…•¬Ó«2
+Jkotlin:S1481‡"*Remove this unused "token" local variable.(Ğ®Ã8ˆ•¬Ó«2
+Vkotlin:S1481†"1Remove this unused "placesClient" local variable.(ıˆ®ûÿÿÿÿ8‰•¬Ó«2
+1kotlin:S1128"Remove this unused import.(‰¿Ë
+9kotlin:S1128/"Remove this unused import.(”üºú8¡¸Á¤ã2
+Ckotlin:S125‹"Remove this commented out code.(ÁÇ¥ïÿÿÿÿÿ8³•¬Ó«2
+Ckotlin:S125‘"Remove this commented out code.(­ÀÈüÿÿÿÿ8µ•¬Ó«2
+Ckotlin:S125—"Remove this commented out code.(Ì‹½²ùÿÿÿÿ8¸•¬Ó«2
+Ckotlin:S125à"Remove this commented out code.(ÍÈ† ùÿÿÿÿ8¼•¬Ó«2
+>kotlin:S125ä"Remove this commented out code.(ĞÉ‡8¿•¬Ó«2
+Ckotlin:S125™"Remove this commented out code.(†Æ·¾ùÿÿÿÿ8À•¬Ó«2
+>kotlin:S125¤"Remove this commented out code.(ãçÖ8Â•¬Ó«2
+>kotlin:S125±"Remove this commented out code.(ØäÊ’8Ä•¬Ó«2
+=kotlin:S125Ä"Remove this commented out code.(ª¾õ38Å•¬Ó«2
+=kotlin:S125Ë"Remove this commented out code.(¢Æş"8Ê•¬Ó«2
+Ckotlin:S125ô"Remove this commented out code.(…Úšÿÿÿÿÿ8Ì•¬Ó«2
+Ckotlin:S125ƒ"Remove this commented out code.(ªóƒùÿÿÿÿ8Í•¬Ó«2
+Ckotlin:S125"Remove this commented out code.(ôç–›øÿÿÿÿ8Ï•¬Ó«2
+>kotlin:S125’"Remove this commented out code.(Î›µ8Ô•¬Ó«2
+>kotlin:S125œ"Remove this commented out code.(¹­Ïé8Ù•¬Ó«2
+>kotlin:S125Ş"Remove this commented out code.(ı¸â8Ü•¬Ó«2
+Ckotlin:S125á"Remove this commented out code.(à¯Õ±üÿÿÿÿ8İ•¬Ó«2
+Ckotlin:S125ó"Remove this commented out code.(…Úšÿÿÿÿÿ8ß•¬Ó«2
+Ckotlin:S125Š"Remove this commented out code.(ñ¥ùšøÿÿÿÿ8â•¬Ó«2
+Ckotlin:S125«"Remove this commented out code.(ğ±šÄşÿÿÿÿ8æ•¬Ó«2
+Ckotlin:S125İ"Remove this commented out code.(Óíù‹ıÿÿÿÿ8é•¬Ó«2
+>kotlin:S125œ"Remove this commented out code.(Œ™úÀ8ò•¬Ó«2
+kkotlin:S1871«"MThis branch's code block is the same as the block for the branch on line 154.(ªØÌ•ıÿÿÿÿ
+qkotlin:S3776"RRefactor this method to reduce its Cognitive Complexity from 38 to the 15 allowed.(úò­8š–¬Ó«2
+rkotlin:S3776"RRefactor this method to reduce its Cognitive Complexity from 43 to the 15 allowed.(ßÀŞ¸8Ÿ–¬Ó«2
+wkotlin:S3776Æ"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(Âª¶Æúÿÿÿÿ8¡–¬Ó«2
+wkotlin:S3776Õ"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(ËÖéäøÿÿÿÿ8ª–¬Ó«2
+Zkotlin:S1144Æ"5Remove this unused private "showChooseDialog" method.(Âª¶Æúÿÿÿÿ8Á–¬Ó«2
+ykotlin:S1186ó"ZAdd a nested comment explaining why this function is empty or complete the implementation.(ÛÆ<8Ë–¬Ó«2
+Skotlin:S1066™".Merge this "if" statement with the nested one.(”ùÍ›ûÿÿÿÿ8Ï–¬Ó«2
+Skotlin:S1066¥".Merge this "if" statement with the nested one.(”ùÍ›ûÿÿÿÿ8Ğ–¬Ó«2
+Skotlin:S1066Ã".Merge this "if" statement with the nested one.(”ùÍ›ûÿÿÿÿ8Ñ–¬Ó«2
+Skotlin:S1066Ï".Merge this "if" statement with the nested one.(”ùÍ›ûÿÿÿÿ8Ò–¬Ó«2
+Skotlin:S1066Ü".Merge this "if" statement with the nested one.(”ùÍ›ûÿÿÿÿ8Ó–¬Ó«2
+Skotlin:S1066ò".Merge this "if" statement with the nested one.(”ùÍ›ûÿÿÿÿ8Ô–¬Ó«2

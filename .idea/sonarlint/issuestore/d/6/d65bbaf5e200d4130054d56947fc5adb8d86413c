@@ -1,0 +1,40 @@
+
+Gkotlin:S1481”".Remove this unused "exception" local variable.(•Ö‚á
+Ckotlin:S1481ˆ"*Remove this unused "token" local variable.(ÐŽ®Ã
+Okotlin:S1481‡"1Remove this unused "placesClient" local variable.(°°º·úÿÿÿÿ
+2kotlin:S1128"Remove this unused import.(ï‡Û™
+7kotlin:S1128
+"Remove this unused import.(¦È ¦üÿÿÿÿ
+1kotlin:S1128"Remove this unused import.(éÎü
+<kotlin:S125Í"Remove this commented out code.(™¿þÕøÿÿÿÿ
+7kotlin:S125€"Remove this commented out code.(þ—ž‹
+7kotlin:S125ž"Remove this commented out code.(æ¦Ž˜
+7kotlin:S125„"Remove this commented out code.(þ—ž‹
+7kotlin:S125£"Remove this commented out code.(úø¢¤
+<kotlin:S125Á"Remove this commented out code.(ÁÇ¥ïÿÿÿÿÿ
+<kotlin:S125Æ"Remove this commented out code.(­ÀÈüÿÿÿÿ
+<kotlin:S125Ë"Remove this commented out code.(Ì‹½²ùÿÿÿÿ
+6kotlin:S125í"Remove this commented out code.(ª¾õ3
+6kotlin:S125ô"Remove this commented out code.(¢Æþ"
+<kotlin:S125œ"Remove this commented out code.(èê¶èúÿÿÿÿ
+7kotlin:S125Œ"Remove this commented out code.(¹­Ïé
+7kotlin:S125Ê"Remove this commented out code.(¬Ï®Ü
+<kotlin:S125Í"Remove this commented out code.(÷ÁÚßüÿÿÿÿ
+<kotlin:S125ß"Remove this commented out code.(…žÚšÿÿÿÿÿ
+<kotlin:S125‹"Remove this commented out code.(ñ¥ùšøÿÿÿÿ
+<kotlin:S125®"Remove this commented out code.(ð±šÄþÿÿÿÿ
+7kotlin:S125â"Remove this commented out code.(‹×çÒ
+kkotlin:S1871Ñ"MThis branch's code block is the same as the block for the branch on line 323.(ªØÌ•ýÿÿÿÿ
+jkotlin:S3776h"RRefactor this method to reduce its Cognitive Complexity from 32 to the 15 allowed.(îý§û
+kkotlin:S3776Ò"RRefactor this method to reduce its Cognitive Complexity from 59 to the 15 allowed.(úò­
+pkotlin:S3776¾"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(Âª¶Æúÿÿÿÿ
+pkotlin:S3776Â"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(ËÖéäøÿÿÿÿ
+Skotlin:S1144¾"5Remove this unused private "showChooseDialog" method.(Âª¶Æúÿÿÿÿ
+rkotlin:S1186ñ"ZAdd a nested comment explaining why this function is empty or complete the implementation.(ÛÆ<
+rkotlin:S1186õ"ZAdd a nested comment explaining why this function is empty or complete the implementation.(ÛÆ<
+Kkotlin:S1066n".Merge this "if" statement with the nested one.(”ùÍ›ûÿÿÿÿ
+Kkotlin:S1066z".Merge this "if" statement with the nested one.(”ùÍ›ûÿÿÿÿ
+Lkotlin:S1066 ".Merge this "if" statement with the nested one.(”ùÍ›ûÿÿÿÿ
+Lkotlin:S1066¬".Merge this "if" statement with the nested one.(”ùÍ›ûÿÿÿÿ
+Lkotlin:S1066Ñ".Merge this "if" statement with the nested one.(”ùÍ›ûÿÿÿÿ
+Lkotlin:S1066ä".Merge this "if" statement with the nested one.(”ùÍ›ûÿÿÿÿ

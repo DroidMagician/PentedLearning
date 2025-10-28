@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:orientation="horizontal"
+        android:background="@android:drawable/list_selector_background">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="@dimen/_22sdp"
+                android:src="@drawable/ic_calculater"
+                android:layout_height="@dimen/_22sdp">
+            </ImageView>
+            <TextView
+                android:id="@+id/sectionHeader"
+                style="@style/NormalText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Maths"
+                android:padding="10dp"
+                android:textSize="@dimen/_14ssp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            style="@style/NormalText"
+            android:id="@+id/txtPoints"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/_10ssp"
+            android:textColor="@color/secondary_gray"
+            android:text="24 questions, 3 hours"
+            android:layout_height="wrap_content">
+
+        </TextView>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/gray_rounded_"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            tools:itemCount="3"
+            android:layout_width="match_parent"
+            tools:listitem="@layout/row_weekend_test_series"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="model"
+            type="com.pented.learningapp.authScreens.model.GetLanguagesResponseModel.Data" />
+
+        <variable
+            name="click"
+            type="android.view.View.OnClickListener" />
+
+        <import type="android.view.View" />
+    </data>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/mainLayout"
+    android:onClick="@{(v)->click.onClick(v)}"
+    android:layout_height="wrap_content">
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:gravity="center"
+        android:onClick="@{(v)->click.onClick(v)}"
+        android:checked="@{model.selected}"
+        android:buttonTint="@{model.selected ? @color/primary:@color/chip_background }"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </RadioButton>
+    <TextView
+        android:layout_toRightOf="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:id="@+id/txtRadio"
+        android:textColor="@{model.selected ?@color/primary :@color/chip_background}"
+        style="@style/NormalText"
+        android:layout_centerVertical="true"
+        android:text="@{model.languageName}"
+        android:layout_height="wrap_content">
+    </TextView>
+</RelativeLayout>
+</layout>

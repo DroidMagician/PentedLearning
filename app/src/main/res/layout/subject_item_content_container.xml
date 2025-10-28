@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/mainLayout"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/subjectIcon"
+                android:layout_width="@dimen/_22sdp"
+                android:src="@drawable/ic_calculater"
+                android:layout_height="@dimen/_22sdp">
+            </ImageView>
+            <TextView
+                android:id="@+id/sectionHeader"
+                style="@style/NormalText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Maths"
+                android:padding="10dp"
+                android:textSize="@dimen/_14ssp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            style="@style/NormalText"
+            android:id="@+id/txtPoints"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/_10ssp"
+            android:textColor="@color/secondary_gray"
+            android:text="Part - 1 (Board preparation)"
+            android:layout_height="wrap_content">
+
+        </TextView>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        style="@style/MediumText"
+        android:id="@+id/txtChapters"
+        android:paddingLeft="@dimen/_5sdp"
+        android:layout_gravity="left"
+        android:textSize="@dimen/_8ssp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:gravity="left"
+        android:text="6 chapters / 12 chapters"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/gray_rounded_"
+        android:orientation="vertical"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            tools:itemCount="3"
+            android:layout_width="match_parent"
+            tools:listitem="@layout/row_subjects"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtMore"
+            android:layout_width="match_parent"
+            style="@style/NormalText"
+            android:paddingLeft="@dimen/_20sdp"
+            android:paddingRight="@dimen/_20sdp"
+            android:paddingBottom="@dimen/_10sdp"
+            android:textSize="@dimen/_8ssp"
+            android:textColor="@color/primary"
+            android:text="+ 4 more"
+            android:gravity="left"
+            android:layout_height="wrap_content">
+
+        </TextView>
+    </LinearLayout>
+
+
+</LinearLayout>

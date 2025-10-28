@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="viewModel"
+            type="com.pented.learningapp.homeScreen.scanQR.viewModel.WatchScannedVideoVM" />
+    </data>
+    <FrameLayout
+        android:id="@+id/mainFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:keepScreenOn="true"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_weight="1.3"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="@color/black"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <RelativeLayout
+            android:focusable="true"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:keepScreenOn="true">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:id="@+id/youTubePlayerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone"
+                    app:enableLiveVideoUi="false"
+                    app:useWebUi="false"
+                    app:showYouTubeButton="false"
+                    app:autoPlay="false"
+                    app:showFullScreenButton="true" />
+            </LinearLayout>
+            <com.google.android.exoplayer2.ui.PlayerView
+                android:id="@+id/playerView"
+                android:focusable="true"
+                app:controller_layout_id="@layout/exo_playback_control_view"
+                android:layout_width="match_parent"
+                app:hide_on_touch="true"
+                android:layout_height="match_parent">
+
+                <ProgressBar
+                    android:id="@+id/progressBarPlayer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:visibility="gone"/>
+
+            </com.google.android.exoplayer2.ui.PlayerView>
+
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/bottomLayout"
+        android:layout_marginTop="-10dp"
+        android:layout_weight="0.7"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:id="@+id/bottomSheet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/_20sdp"
+            android:paddingRight="@dimen/_20sdp"
+            android:paddingTop="@dimen/_10sdp"
+            android:background="@drawable/rounded_bottom_sheet"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_alignParentTop="true"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1.5"
+                            android:layout_gravity="center|left"
+                            android:gravity="center|left"
+                            android:layout_height="wrap_content">
+                            <ImageView
+                                android:layout_width="@dimen/_20sdp"
+                                android:src="@drawable/ic_topic_img"
+                                android:layout_height="@dimen/_20sdp">
+
+                            </ImageView>
+                            <TextView
+                                android:layout_marginLeft="@dimen/_2sdp"
+                                android:layout_width="wrap_content"
+                                style="@style/NormalText600"
+                                android:textSize="@dimen/_12ssp"
+                                android:id="@+id/txtTopicName"
+                                android:text="Properties of rational number"
+                                android:layout_height="wrap_content">
+
+                            </TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="0.05"
+                            android:layout_height="wrap_content">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:src="@drawable/ic_gray_dot"
+                                android:layout_height="wrap_content">
+
+                            </ImageView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="0.45"
+                            android:layout_marginLeft="@dimen/_2sdp"
+                            android:layout_gravity="right|center"
+                            android:gravity="right|center"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                style="@style/NormalText"
+                                android:id="@+id/txtPoints"
+                                android:textSize="@dimen/_8ssp"
+                                android:layout_width="wrap_content"
+                                android:text="670 points"
+                                android:layout_height="wrap_content">
+                            </TextView>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_width="match_parent"
+                        android:layout_marginBottom="@dimen/_10sdp"
+                        android:layout_gravity="center|left"
+                        android:gravity="center|left"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+                        <com.skydoves.progressview.ProgressView
+                            android:id="@+id/progressView1"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_6sdp"
+                            app:progressView_autoAnimate="true"
+                            app:progressView_colorBackground="@color/lightGray"
+                            app:progressView_colorProgress="@color/primary"
+                            app:progressView_labelColorInner="@color/white"
+                            app:progressView_labelColorOuter="@color/black"
+                            app:progressView_labelSize="0dp"
+                            app:progressView_labelSpace="0dp"
+                            app:progressView_labelText=""
+                            app:progressView_max="100"
+                            app:progressView_min="0"
+                            app:progressView_orientation="horizontal"
+                            app:progressView_padding="1dp"
+                            app:progressView_progressFromPrevious="true"
+                            app:progressView_radius="12dp" />
+                        <RelativeLayout
+                            android:visibility="gone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_line_progress"/>
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_line_progress_fill"/>
+
+                        </RelativeLayout>
+
+
+                    </LinearLayout>
+                    <TextView
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_width="match_parent"
+                        style="@style/MediumText"
+                        android:visibility="gone"
+                        android:text="@string/check_important_links"
+                        android:textColor="@color/primary"
+                        android:textSize="@dimen/_10ssp"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+                     <TextView
+                         android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_width="match_parent"
+                        style="@style/MediumText"
+                         android:visibility="gone"
+                        android:text="@string/download_important_questions"
+                        android:textColor="@color/primary"
+                        android:textSize="@dimen/_10ssp"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+                     <TextView
+                         android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_width="match_parent"
+                        style="@style/MediumText"
+                         android:visibility="gone"
+                        android:text="@string/ask_a_important_question"
+                        android:textColor="@color/primary"
+                        android:textSize="@dimen/_10ssp"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+                </LinearLayout>
+                <RelativeLayout
+                    android:layout_alignParentBottom="true"
+                    android:layout_width="match_parent"
+                    android:paddingBottom="@dimen/_20sdp"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/btnExit"
+                        android:layout_alignParentLeft="true"
+                        android:layout_width="@dimen/_90sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_alignParentStart="true"
+                        android:background="@drawable/button_bg"
+                        android:fontFamily="@font/nunito_bold"
+                        android:text="@string/exit"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_13sdp" />
+                    <Button
+                        android:id="@+id/btnContinue"
+                        android:layout_width="@dimen/_130sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_alignParentEnd="true"
+                        android:background="@drawable/button_bg"
+                        android:fontFamily="@font/nunito_bold"
+                        android:text="@string/scanagain"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_13sdp" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+        <include
+            android:visibility="gone"
+            layout="@layout/transparent_progressbar_layout" />
+
+    </FrameLayout>
+
+</layout>

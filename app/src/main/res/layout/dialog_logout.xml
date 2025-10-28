@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true"
+            app:contentPadding="@dimen/_15sdp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="@dimen/_20sdp"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center|left"
+                    android:gravity="center|left"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:src="@drawable/logout"
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_40sdp">
+                    </ImageView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        style="@style/BoldText"
+                        android:layout_marginLeft="@dimen/_12ssp"
+                        android:textSize="@dimen/_18ssp"
+                        android:text="Logout"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    style="@style/MediumText"
+                    android:id="@+id/txtDescription"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:textSize="@dimen/_14ssp"
+                    android:text="Are you sure you want to logout from the app?"
+                    android:layout_height="wrap_content">
+                </TextView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:id="@+id/lilRemindMeLater"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="match_parent"
+                            style="@style/NormalText600"
+                            android:layout_gravity="center"
+                            android:gravity="center|left"
+                            android:textSize="@dimen/_16ssp"
+                            android:text="Cancel"
+                            android:textColor="@color/primary"
+                            android:layout_height="match_parent">
+                        </TextView>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:id="@+id/llSubscribe"
+                        android:layout_height="wrap_content">
+                        <Button
+                            android:id="@+id/btnLogout"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:paddingLeft="@dimen/_15sdp"
+                            android:paddingRight="@dimen/_15sdp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:background="@drawable/button_bg"
+                            android:fontFamily="@font/nunito_bold"
+                            android:text="Logout"
+                            style="?android:attr/borderlessButtonStyle"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_14ssp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+</RelativeLayout>

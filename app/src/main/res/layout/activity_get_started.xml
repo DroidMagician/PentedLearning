@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="viewModel"
+            type="com.pented.learningapp.authScreens.viewModel.GetStartedVM" />
+    </data>
+    <FrameLayout
+        android:id="@+id/mainFrame"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/primary"
+            tools:context=".authScreens.GetStartedActivity">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_pented_logo"
+                android:layout_margin="@dimen/_40sdp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/ic_get_started_bg_new"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_165sdp"
+                android:background="@drawable/white_card">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/_70sdp"
+                    android:paddingStart="@dimen/_35sdp"
+                    android:orientation="vertical"
+                    android:paddingEnd="@dimen/_35sdp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/get_started"
+                            android:textColor="@color/heading_gray"
+                            android:fontFamily="@font/nunito_bold"
+                            android:textSize="@dimen/_22sdp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/enter_your_phone"
+                            android:textColor="@color/secondary_gray"
+                            android:fontFamily="@font/nunito_semibold"
+                            android:textSize="@dimen/_13sdp"/>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_42sdp"
+                            android:layout_marginTop="@dimen/_20sdp"
+                            android:orientation="horizontal"
+                            android:gravity="center_vertical"
+                            android:paddingStart="@dimen/_10sdp"
+                            android:paddingEnd="@dimen/_10sdp"
+                            android:background="@drawable/edittext_bg">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_phone"/>
+                            <TextView
+                                android:layout_marginLeft="@dimen/_7sdp"
+                                android:layout_width="wrap_content"
+                                android:text="+91 -"
+                                style="@style/NormalText"
+                                android:layout_height="wrap_content">
+
+                            </TextView>
+                            <EditText
+                                android:id="@+id/etPhone"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@null"
+                                android:inputType="phone"
+                                android:hint="@string/phone_number"
+                                android:textSize="@dimen/_12sdp"
+                                android:maxLength="10"
+                                android:text="@={viewModel.getStartedRequestModel.MobileNumber}"
+                                android:digits="0123456789"
+                                android:singleLine="true"
+                                android:maxLines="1"
+                                android:fontFamily="@font/nunito_regular"
+                                android:textColorHint="@color/secondary_gray"
+                                android:layout_marginLeft="@dimen/_10sdp"/>
+
+                        </LinearLayout>
+
+                        <Button
+                            android:id="@+id/btnContinue"
+                            android:layout_width="@dimen/_90sdp"
+                            android:layout_height="@dimen/_40sdp"
+                            android:background="@drawable/button_bg"
+                            android:text="@string/cont"
+                            android:textAllCaps="false"
+                            android:fontFamily="@font/nunito_bold"
+                            android:layout_alignParentEnd="true"
+                            android:textSize="@dimen/_13sdp"
+                            style="?android:attr/borderlessButtonStyle"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="@dimen/_60sdp"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/llSignin"
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="@dimen/_30sdp"
+                        android:gravity="center_horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/use_security_code"
+                            android:textColor="@color/secondary_gray"
+                            android:fontFamily="@font/nunito_regular"
+                            android:textSize="@dimen/_12sdp"/>
+
+                        <TextView
+                            android:id="@+id/tvSignin"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/sign_in"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:textColor="@color/primary"
+                            android:fontFamily="@font/nunito_semibold"
+                            android:textSize="@dimen/_12sdp"/>
+                    </LinearLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+        <include
+            android:visibility="gone"
+            layout="@layout/transparent_progressbar_layout" />
+
+    </FrameLayout>
+</layout>

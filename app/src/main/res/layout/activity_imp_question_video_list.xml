@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="viewModel"
+    type="com.pented.learningapp.homeScreen.home.impQuestions.viewModel.ImpQuestionsVM" />
+    </data>
+    <FrameLayout
+        android:id="@+id/mainFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_chapter_bg_new"
+    tools:context=".homeScreen.home.subjectTopic.ChapterWithAnimation2Activity">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_marginTop="@dimen/_minus15sdp"
+        app:cardCornerRadius="@dimen/_25sdp"
+        app:cardElevation="@dimen/_10sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ivBack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_3sdp"
+                    android:src="@drawable/ic_back_noti" />
+
+
+                <TextView
+                    android:id="@+id/txtChapterName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:fontFamily="@font/nunito_semibold"
+                    android:text="Properties of rational numbers"
+                    android:textColor="@color/heading_gray"
+                    android:textSize="@dimen/_14sdp" />
+
+                <TextView
+                    android:id="@+id/tvSubscribed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:fontFamily="@font/nunito_semibold"
+                    android:text="@string/subscribed"
+                    android:textColor="@color/primary"
+                    android:textSize="@dimen/_10sdp"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_30sdp"
+                android:layout_marginTop="@dimen/_15sdp">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_line_progress" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_line_progress_fill" />
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           android:visibility="visible">
+
+           <androidx.recyclerview.widget.RecyclerView
+               android:id="@+id/rvPlanetChapter"
+               android:layout_width="match_parent"
+               android:layout_marginBottom="300dp"
+               android:layout_height="match_parent"
+               android:clipToPadding="false"
+               android:paddingTop="100dp"
+               android:nestedScrollingEnabled="false"
+               app:stackFromEnd="true"
+               tools:listitem="@layout/row_planet_chapter" />
+       </LinearLayout>
+       <androidx.cardview.widget.CardView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/lilStartNow"
+           android:visibility="gone"
+           android:layout_above="@+id/animationViewRocket"
+           android:layout_marginBottom="@dimen/_5sdp"
+           app:cardCornerRadius="@dimen/_10sdp"
+           android:layout_marginLeft="@dimen/_20sdp"
+           app:contentPadding="@dimen/_10sdp"
+           android:layout_marginRight="@dimen/_20sdp"
+           app:cardElevation="@dimen/_10sdp">
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:paddingLeft="@dimen/_30sdp"
+               android:orientation="vertical"
+               android:layout_height="wrap_content">
+               <TextView
+                   android:layout_width="match_parent"
+                   android:text="Chapter Name"
+                   style="@style/BoldText"
+                   android:textColor="@color/secondary_gray"
+                   android:textSize="@dimen/_12ssp"
+                   android:layout_height="wrap_content">
+
+               </TextView>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:text="Chapter Description"
+                   style="@style/NormalText"
+                   android:layout_marginTop="@dimen/_2sdp"
+                   android:textColor="@color/secondary_gray"
+                   android:textSize="@dimen/_12ssp"
+                   android:layout_height="wrap_content">
+               </TextView>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:text="Start Now"
+                   android:id="@+id/txtStartNow"
+                   style="@style/BoldText"
+                   android:layout_marginTop="@dimen/_5sdp"
+                   android:textColor="@color/primary"
+                   android:textSize="@dimen/_12ssp"
+                   android:layout_height="wrap_content">
+               </TextView>
+           </LinearLayout>
+       </androidx.cardview.widget.CardView>
+       <TextView
+           android:layout_width="match_parent"
+           android:gravity="center"
+           android:text="Let's Start"
+           style="@style/BoldText"
+           android:id="@+id/txtLetsStart"
+           android:textStyle="bold"
+           android:layout_marginBottom="@dimen/_5sdp"
+           android:layout_above="@+id/animationViewRocket"
+           android:textSize="@dimen/_17ssp"
+           android:layout_height="wrap_content"></TextView>
+       <ImageView
+           android:id="@+id/animationViewRocket"
+           android:layout_width="@dimen/_110sdp"
+           android:layout_alignParentBottom="true"
+           android:layout_centerHorizontal="true"
+           android:layout_marginBottom="-100dp"
+           android:src="@drawable/ic_rocket"
+           android:layout_height="@dimen/_140sdp">
+       </ImageView>
+       <com.airbnb.lottie.LottieAnimationView
+           android:layout_alignParentBottom="true"
+           android:layout_width="@dimen/_110sdp"
+           android:layout_centerHorizontal="true"
+           android:layout_height="@dimen/_140sdp"
+           app:lottie_rawRes="@raw/rocket_lunch"
+           app:lottie_autoPlay="true"
+           android:visibility="gone"
+           app:lottie_loop="true"/>
+   </RelativeLayout>
+
+</LinearLayout>
+        <include
+            layout="@layout/transparent_progressbar_layout"
+            android:visibility="gone" />
+    </FrameLayout>
+</layout>

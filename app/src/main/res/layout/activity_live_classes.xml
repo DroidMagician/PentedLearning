@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="viewModel"
+            type="com.pented.learningapp.homeScreen.home.liveClasses.viewModel.LiveClassVM" />
+    </data>
+    <FrameLayout
+        android:id="@+id/mainFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_70sdp"
+        app:cardCornerRadius="@dimen/_25sdp"
+        app:cardElevation="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_minus15sdp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp">
+            <ImageView
+                android:id="@+id/ivBack"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_back_noti"
+                android:padding="@dimen/_3sdp"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/ivBack"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/today_live_classes"
+                    android:textColor="@color/heading_gray"
+                    android:fontFamily="@font/nunito_semibold"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:textSize="@dimen/_14sdp"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ivSearch"
+                android:visibility="visible"
+                android:layout_width="@dimen/_17sdp"
+                android:layout_height="@dimen/_17sdp"
+                android:src="@drawable/ic_search"
+                android:layout_alignParentRight="true"/>
+            <LinearLayout
+                android:id="@+id/lilSearch"
+                android:layout_width="match_parent"
+                android:layout_toRightOf="@+id/ivBack"
+                android:background="@color/white"
+                android:visibility="gone"
+                android:layout_height="match_parent">
+                <RelativeLayout
+                    android:layout_marginBottom="@dimen/_20sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_10sdp">
+
+                    <ImageView
+                        android:id="@+id/icSearch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_search"/>
+
+                    <EditText
+                        android:layout_centerVertical="true"
+                        android:id="@+id/edtSearch"
+                        android:paddingRight="@dimen/_20sdp"
+                        android:layout_toRightOf="@+id/icSearch"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:inputType="text"
+                        android:hint="@string/search"
+                        android:textSize="@dimen/_12sdp"
+                        android:singleLine="true"
+                        android:maxLines="1"
+                        android:fontFamily="@font/nunito_regular"
+                        android:textColorHint="@color/secondary_gray"
+                        android:layout_marginLeft="@dimen/_10sdp"/>
+                    <ImageView
+                        android:id="@+id/icCross"
+                        android:layout_alignParentRight="true"
+                        android:layout_width="@dimen/_15sdp"
+                        android:layout_centerVertical="true"
+                        android:layout_height="@dimen/_15sdp"
+                        android:src="@drawable/cancel"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+
+            android:id="@+id/activity_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view"
+                android:layout_width="match_parent"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_height="wrap_content"
+                tools:itemCount="1"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                tools:listitem="@layout/row_live_classes"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                android:animationCache="true" />
+            <View
+                android:id="@+id/separator_after_live"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#e0e0e0" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view_expired"
+                android:layout_width="match_parent"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_height="wrap_content"
+                tools:itemCount="1"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                tools:listitem="@layout/row_live_classes"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                android:animationCache="true" />
+            <View
+                android:id="@+id/separator_after_expired"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#e0e0e0" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view_ongoing"
+                android:layout_width="match_parent"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_height="wrap_content"
+                tools:itemCount="1"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                tools:listitem="@layout/row_live_classes"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                android:animationCache="true" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>
+        <include
+            android:visibility="gone"
+            layout="@layout/transparent_progressbar_layout" />
+
+    </FrameLayout>
+</layout>

@@ -1,0 +1,14 @@
+
+>kotlin:S1128
+"Remove this unused import.(™¬±öúÿÿÿÿ8ìôˆç2
+Bkotlin:S1252"Remove this commented out code.(à‡Äûÿÿÿÿ8ª¨Å¹Ö2
+=kotlin:S125Q"Remove this commented out code.(Úòñ‰8¶Û’´‰1
+=kotlin:S125U"Remove this commented out code.(ÄÒ†ğ8ÑÃµÖ2
+=kotlin:S125W"Remove this commented out code.(Õ«Ûò8ÓÃµÖ2
+=kotlin:S125z"Remove this commented out code.(˜Å§Ù8ÔÃµÖ2
+wkotlin:S1186j"ZAdd a nested comment explaining why this function is empty or complete the implementation.(ıâî·øÿÿÿÿ
+wkotlin:S1186k"ZAdd a nested comment explaining why this function is empty or complete the implementation.(äÀŞúÿÿÿÿ
+wkotlin:S1186l"ZAdd a nested comment explaining why this function is empty or complete the implementation.(–è™¶ûÿÿÿÿ
+rkotlin:S1186m"ZAdd a nested comment explaining why this function is empty or complete the implementation.(˜‘®£
+rkotlin:S1186n"ZAdd a nested comment explaining why this function is empty or complete the implementation.(ä¿¡
+ykotlin:S1186o"ZAdd a nested comment explaining why this function is empty or complete the implementation.(Î½Ì²8çÃµÖ2

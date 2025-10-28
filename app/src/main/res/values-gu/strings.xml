@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">પેન્ટેડ</string>
+
+
+    <string name="get_started">શરૂ કરો</string>
+    <string name="enter_your_phone">શરૂ કરવા માટે તમારો ફોન નંબર દાખલ કરો</string>
+    <string name="phone_number">ફોન નંબર</string>
+    <string name="cont">ચાલુ રાખો</string>
+    <string name="use_security_code">માટે સુરક્ષા કોડનો ઉપયોગ કરો</string>
+    <string name="sign_in">સાઇન ઇન કરો</string>
+
+    <string name="crop_image_activity_title"></string>
+    <string name="crop_image_menu_rotate_left">Rotate counter clockwise</string>
+    <string name="crop_image_menu_rotate_right">Rotate</string>
+    <string name="crop_image_menu_crop">Crop</string>
+    <string name="crop_image_menu_flip">Flip</string>
+    <string name="crop_image_menu_flip_horizontally">Flip horizontally</string>
+    <string name="crop_image_menu_flip_vertically">Flip vertically</string>
+    <string name="content_des">PDF PAGE</string>
+    <string name="pick_image_intent_chooser_title">Select source</string>
+    <string name="change_standard">ધોરણ બદલો:</string>
+    <string name="crop_image_activity_no_permissions">Cancelling, required permissions are not granted</string>
+
+    <string name="back">પાછળ</string>
+    <string name="part">ભાગ</string>
+    <string name="blueprint">બ્લુ પ્રિન્ટ</string>
+    <string name="one_time_password">વન ટાઇમ પાસવર્ડ</string>
+    <string name="we_have_sent_otp">અમે તમારા નંબર પર OTP મોકલ્યો છે</string>
+    <string name="resend_otp">OTP ફરીથી મોકલો</string>
+
+
+    <string name="your_security_question">તમારો સુરક્ષા પ્રશ્ન</string>
+    <string name="please_answer_your_security_question">કૃપા કરીને તમારા સુરક્ષા પ્રશ્નનો જવાબ આપો the n પાસવર્ડ રીસેટ કરવા માટે</string>
+    <string name="type_your_ans_here">તમારો જવાબ અહીં લખો</string>
+
+
+    <string name="register_yourself">તમારી જાતની નોંધણી કરો</string>
+    <string name="hello_lets_get">હેલો, ચાલો તમને અમારી સાથે નોંધણી કરાવીએ</string>
+    <string name="student_name">વિદ્યાર્થીનું નામ</string>
+    <string name="your_class_std">તમારો વર્ગ /ધોરણ</string>
+    <string name="register_myself">મારી નોંધણી કરાવો</string>
+    <string name="enter_other_details">અન્ય વિગતો દાખલ કરો</string>
+    <string name="please_enter_other_details">કૃપા કરીને અન્ય વિગતો દાખલ કરો</string>
+    <string name="personal_details">અંગત વિગતો</string>
+    <string name="upload_pro_pic">પ્રોફાઇલ ચિત્ર અપલોડ કરો</string>
+    <string name="use_cam_or_upload">કેમેરાનો ઉપયોગ કરો અથવા ગેલેરીમાંથી અપલોડ કરો</string>
+    <string name="enter_your_email_id">તમારું ઇમેઇલ આઇડી દાખલ કરો</string>
+    <string name="about_yourself">તમારા વિશે</string>
+    <string name="security_ques">સુરક્ષા પ્રશ્ન</string>
+    <string name="we_will_use_this_answer">અમે આ જવાબનો ઉપયોગ ઇમરજન્સી કેસો માટે કરીશું</string>
+    <string name="add_your_security_que">તમારો સુરક્ષા પ્રશ્ન ઉમેરો</string>
+    <string name="skip_this_step">આ પગલું છોડો</string>
+    <string name="confirm">ખાતરી કરો</string>
+
+
+    <string name="home">ઘર</string>
+    <string name="subjects">વિષયો</string>
+    <string name="scan">સ્કેન કરો</string>
+    <string name="tests">પરીક્ષણો</string>
+    <string name="leaderboard">લીડરબોર્ડ</string>
+    <string name="search">શોધો ...</string>
+    <string name="start_with_your_subjects">તમારા વિષયોથી પ્રારંભ કરો</string>
+    <string name="today_live_classes">Today live classes</string>
+    <string name="attend_live_classes_by_experts">નિષ્ણાતો દ્વારા લાઇવ વર્ગોમાં હાજરી આપો</string>
+    <string name="subscribe_up_with_our_weekly_tests">અમારા સાપ્તાહિક પરીક્ષણો સાથે સબ્સ્ક્રાઇબ કરો</string>
+    <string name="exam_blueprints">Text Books</string>
+    <string name="final_structure_of_your_exam_paper">તમારા પરીક્ષાના પેપરની અંતિમ રચના</string>
+    <string name="ask_doubts">Ask doubts</string>
+    <string name="send_us_your_doubts">અમને તમારી શંકાઓ મોકલો</string>
+    <string name="all_doubts_resolved_please_check">બધી શંકાઓનું સમાધાન કરો કૃપા કરીને તપાસો</string>
+    <string name="the_champ">ધ ચેમ્પ</string>
+
+
+    <string name="notifications">સૂચનાઓ</string>
+    <string name="new_">નવું</string>
+    <string name="earlier_notifications">અગાઉની સૂચનાઓ</string>
+
+
+    <string name="mathematics">ગણિત</string>
+    <string name="subscribe_this_subject">આ વિષયને સબ્સ્ક્રાઇબ કરો</string>
+    <string name="get_notifications_of">તમારા હલ કરવા માટે જીવંત વર્ગો, સપ્તાહના પરીક્ષણો અને દૈનિક મહત્વપૂર્ણ પ્રશ્નોની સૂચનાઓ મેળવો</string>
+    <string name="subscribed">20 u2022 સબ્સ્ક્રાઇબ કર્યું</string>
+    <string name="dot">20 u2022</string>
+    <string name="todays_important_questions">આજના મહત્વના પ્રશ્નો</string>
+    <string name="just_solving_these_questions">ફક્ત આ પ્રશ્નોનો ઉકેલ લાવવાથી તમને 40% વધુ ગુણ મળે છે</string>
+
+
+    <string name="lets_start">ચાલો શરૂ કરીએ</string>
+    <string name="linear_equations">રેખીય સમીકરણો</string>
+    <string name="lets_try_our_heads">ચાલો કેટલાક x અને y સાથે આપણા માથાને અજમાવીએ</string>
+    <string name="start_now">અત્યારે શરુ કરો</string>
+
+
+    <string name="text_spaces"/>
+    <string name="e_no_internet">ઇન્ટરનેટ કનેક્શન નથી</string>
+    <string name="weekend_test_series">Weekend test series</string>
+    <string name="check_important_links">મહત્વપૂર્ણ લિંક્સ તપાસો</string>
+    <string name="download_important_questions">મહત્વપૂર્ણ પ્રશ્નો ડાઉનલોડ કરો</string>
+    <string name="ask_a_important_question">એક મહત્વપૂર્ણ પ્રશ્ન પૂછો</string>
+    <string name="question_answers">પ્રશ્ન જવાબો</string>
+    <string name="enter_phon_number">કૃપા કરીને ફોન નંબર દાખલ કરો</string>
+    <string name="enter_valid_phon_number">કૃપા કરીને માન્ય ફોન નંબર દાખલ કરો</string>
+    <string name="enter_OTP">કૃપા કરીને OTP દાખલ કરો</string>
+    <string name="enter_valid_OTP">OTP 4 અંક લાંબો હોવો જોઈએ</string>
+    <string name="enter_address">તમારું સરનામું દાખલ કરો</string>
+    <string name = "take_photo"> ફોટો લો </string>
+    <string name = "choose_photo"> ફોટો પસંદ કરો </string>
+    <string name = "cancel"> રદ કરો </string>
+    <string name = "something_went_wrong"> કંઈક ખોટું થયું </string>
+    <string name = "enter_name"> તમારું નામ દાખલ કરો </string>
+
+    <string name="practice">પ્રેક્ટિસ</string>
+    <string name="Modal_question_paper">મોડલ પ્રશ્નપત્ર</string>
+    <string name="rational_and_numbers">તર્કસંગત અને સંખ્યાઓ (ગણિત)</string>
+    <string name="leaderboards">Leaderboards</string>
+    <string name="profile">Profile</string>
+    <string name="subscription">Subscription</string>
+    <string name="places_api_key">"AIzaSyDCOOdj1IalxuAD6KV73UG1i6DDUDrW0XI"</string>
+    <string name="select_language">Please select your language.</string>
+    <string name="select_standard">Please select your standard.</string>
+    <string name="edit_profile_details">પ્રોફાઇલ વિગતો સંપાદિત કરો</string>
+    <string name="filter">Filter</string>
+    <string name="exit">Exit</string>
+    <string name="scanagain">Scan Again</string>
+    <string name="searchbystudentName">Search by student name</string>
+    <string name="searchCityName">Search by city name</string>
+    <string name="searchSchoolName">Search by school name</string>
+
+</resources>

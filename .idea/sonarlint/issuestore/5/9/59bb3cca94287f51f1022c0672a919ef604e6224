@@ -1,0 +1,41 @@
+
+Fkotlin:S108")Either remove or fill this block of code.(ö·ã€ÿÿÿÿÿ
+Rkotlin:S1172à"2Use "_" instead of these unused lambda parameters.(±ö÷«8ôˆ ¨2
+Okotlin:S1656”"/Remove or correct this useless self-assignment.(…„§÷8Œ‰ ¨2
+Gkotlin:S1481é"'Remove this unused "r1" local variable.(š§Ş8”‰ ¨2
+Bkotlin:S1481è")Remove this unused "dip1" local variable.(Ì’İì
+Okotlin:S1481à"*Remove this unused "width" local variable.(ºşõªøÿÿÿÿ8•‰ ¨2
+Kkotlin:S1481×"&Remove this unused "r" local variable.(‹ÉÁßıÿÿÿÿ8–‰ ¨2
+Akotlin:S1481Ö"(Remove this unused "dip" local variable.(çÅ
+Xkotlin:S1481Ğ"3Remove this unused "smoothScroller" local variable.(–‰ñûÿÿÿÿ8–‰ ¨2
+Okotlin:S1481Ò"/Remove this unused "finalValue" local variable.(Êš‹¼8—‰ ¨2
+Bkotlin:S125+"Remove this commented out code.(»ºªøûÿÿÿÿ8Ì‰ ¨2
+=kotlin:S125A"Remove this commented out code.(›ÑË²8Ï‰ ¨2
+<kotlin:S125b"Remove this commented out code.(æ°d8Ò‰ ¨2
+Bkotlin:S125u"Remove this commented out code.(†ÉÏùÿÿÿÿ8ú‰ ¨2
+Ckotlin:S125¤"Remove this commented out code.(»•‚çıÿÿÿÿ8ı‰ ¨2
+Ckotlin:S125¦"Remove this commented out code.(İù“˜øÿÿÿÿ8Š ¨2
+Ckotlin:S125°"Remove this commented out code.(‹ôµîüÿÿÿÿ8ƒŠ ¨2
+Ckotlin:S125Ú"Remove this commented out code.(‹ôµîüÿÿÿÿ8†Š ¨2
+Ckotlin:S125â"Remove this commented out code.(ØäÍôúÿÿÿÿ8‰Š ¨2
+Ckotlin:S125ƒ"Remove this commented out code.(ÿÎ³¦øÿÿÿÿ8Š ¨2
+>kotlin:S125‹"Remove this commented out code.(ñã²ğ8¶Š ¨2
+Ckotlin:S125©"Remove this commented out code.(ÿîà™üÿÿÿÿ8¸Š ¨2
+Ckotlin:S125·"Remove this commented out code.(‹ôµîüÿÿÿÿ8ºŠ ¨2
+=kotlin:S125Á"Remove this commented out code.(Ã´‚?8»Š ¨2
+>kotlin:S125Ï"Remove this commented out code.(É»†²8¿Š ¨2
+Ckotlin:S125İ"Remove this commented out code.(ÛşĞüÿÿÿÿ8¢¼Á¤ã2
+Ckotlin:S125ß"Remove this commented out code.(ôÙÆõøÿÿÿÿ8ÂŠ ¨2
+>kotlin:S125ë"Remove this commented out code.(’¤“8ÅŠ ¨2
+Ckotlin:S125«"Remove this commented out code.(Şë¦ùøÿÿÿÿ8ÉŠ ¨2
+Ckotlin:S125·"Remove this commented out code.(¡ÁÁ‘üÿÿÿÿ8ËŠ ¨2
+Ckotlin:S125¼"Remove this commented out code.(éÓ®ãùÿÿÿÿ8ÕîŸ¨2
+Ckotlin:S125Ó"Remove this commented out code.(èìÒøÿÿÿÿ8ëŠ ¨2
+Ckotlin:S125ó"Remove this commented out code.(‹ôµîüÿÿÿÿ8íŠ ¨2
+=kotlin:S125ı"Remove this commented out code.(Ã´‚?8îŠ ¨2
+>kotlin:S125ˆ"Remove this commented out code.(ñã²ğ8ğŠ ¨2
+wkotlin:S3776Ç"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(†ş Ôüÿÿÿÿ8…‹ ¨2
+wkotlin:S3776²"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(ÅˆÜÿÿÿÿÿ8†‹ ¨2
+wkotlin:S117"SRename this local variable to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(¸¢„•ûÿÿÿÿ8Š‹ ¨2
+rkotlin:S1186V"ZAdd a nested comment explaining why this function is empty or complete the implementation.(ßÀŞ¸
+Rkotlin:S1066{".Merge this "if" statement with the nested one.(¡€Îİüÿÿÿÿ8Ÿ‹ ¨2

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="model"
+            type="com.pented.learningapp.homeScreen.home.questionAnswer.model.OptionModel" />
+
+        <variable
+            name="click"
+            type="android.view.View.OnClickListener" />
+
+        <import type="android.view.View" />
+    </data>
+
+    <LinearLayout
+        android:id="@+id/lilOption"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        setOptionBackground="@{model.status}"
+        android:onClick="@{(v)->click.onClick(v)}"
+        android:layout_height="@dimen/_40sdp">
+        <TextView
+            android:layout_width="match_parent"
+            android:text="@{model.title}"
+            android:id="@+id/txtOption"
+            style="@style/NormalText600"
+            setOptionTextColor="@{model.status}"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/resend_otp_gray"
+            android:textSize="@dimen/_14ssp"
+            android:layout_height="match_parent"></TextView>
+    </LinearLayout>
+</layout>

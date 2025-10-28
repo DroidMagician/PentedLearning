@@ -1,0 +1,43 @@
+
+Jkotlin:S1481‰",Remove this unused "monthId" local variable.(έΥ‚ώÿÿÿÿ
+Okotlin:S1481"1Remove this unused "selectedYear" local variable.(ΰ†‡Δψÿÿÿÿ
+Pkotlin:S1481"2Remove this unused "selectedMonth" local variable.(‹λÿÿÿÿÿ
+Jkotlin:S1481Β",Remove this unused "maxDate" local variable.(½–†›ψÿÿÿÿ
+Hkotlin:S1481ª"*Remove this unused "count" local variable.(Γ¥‹Φÿÿÿÿÿ
+Bkotlin:S1481„"*Remove this unused "count" local variable.(€ψΦ$
+6kotlin:S125?"Remove this commented out code.(’Νυ
+6kotlin:S125b"Remove this commented out code.(’Νυ
+7kotlin:S125‚"Remove this commented out code.(’Νυ
+7kotlin:S125Ά"Remove this commented out code.(’Νυ
+7kotlin:S125Β"Remove this commented out code.(’Νυ
+<kotlin:S125¦"Remove this commented out code.(Φχύÿÿÿÿ
+6kotlin:S125ª"Remove this commented out code.(‡ΤΫ~
+7kotlin:S125°"Remove this commented out code.(η½μ
+<kotlin:S125Ύ"Remove this commented out code.(¶¤©³ωÿÿÿÿ
+<kotlin:S125Κ"Remove this commented out code.(φΉ—ύÿÿÿÿ
+7kotlin:S125Μ"Remove this commented out code.(Τ­
+<kotlin:S125Φ"Remove this commented out code.(§ΤΕόώÿÿÿÿ
+ikotlin:S11928"LDefine a constant instead of duplicating this literal "Search Text" 5 times.(Υΰ›ύÿÿÿÿ
+kkotlin:S1871ψ"MThis branch's code block is the same as the block for the branch on line 492.(ση²®ψÿÿÿÿ
+kkotlin:S1871"MThis branch's code block is the same as the block for the branch on line 530.(ση²®ψÿÿÿÿ
+kkotlin:S1871χ"MThis branch's code block is the same as the block for the branch on line 622.(ση²®ψÿÿÿÿ
+kkotlin:S1871"MThis branch's code block is the same as the block for the branch on line 661.(ση²®ψÿÿÿÿ
+kkotlin:S1871Φ"MThis branch's code block is the same as the block for the branch on line 717.(ση²®ψÿÿÿÿ
+kkotlin:S1871ω"MThis branch's code block is the same as the block for the branch on line 752.(ση²®ψÿÿÿÿ
+kkotlin:S1871±"MThis branch's code block is the same as the block for the branch on line 808.(ση²®ψÿÿÿÿ
+kkotlin:S1871Φ"MThis branch's code block is the same as the block for the branch on line 845.(ση²®ψÿÿÿÿ
+kkotlin:S1871"MThis branch's code block is the same as the block for the branch on line 899.(ση²®ψÿÿÿÿ
+kkotlin:S1871±"MThis branch's code block is the same as the block for the branch on line 936.(ση²®ψÿÿÿÿ
+jkotlin:S37761"RRefactor this method to reduce its Cognitive Complexity from 80 to the 15 allowed.(ξύ§ϋ
+pkotlin:S3776Τ"RRefactor this method to reduce its Cognitive Complexity from 54 to the 15 allowed.(€§³Φώÿÿÿÿ
+pkotlin:S3776Ψ"RRefactor this method to reduce its Cognitive Complexity from 42 to the 15 allowed.(νΑψÿÿÿÿ
+pkotlin:S3776Έ"RRefactor this method to reduce its Cognitive Complexity from 42 to the 15 allowed.(®¤Ο΅ϋÿÿÿÿ
+kkotlin:S3776’"RRefactor this method to reduce its Cognitive Complexity from 42 to the 15 allowed.(Χ¶ω
+pkotlin:S3776ξ"RRefactor this method to reduce its Cognitive Complexity from 42 to the 15 allowed.(΅ΜΓÿÿÿÿÿ
+kkotlin:S117Η"SRename this local variable to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(Έ—Ξ£
+skotlin:S1186"ZAdd a nested comment explaining why this function is empty or complete the implementation.(ϊς­
+rkotlin:S1186E"ZAdd a nested comment explaining why this function is empty or complete the implementation.(Ν¨Δ
+rkotlin:S1186h"ZAdd a nested comment explaining why this function is empty or complete the implementation.(Ν¨Δ
+skotlin:S1186"ZAdd a nested comment explaining why this function is empty or complete the implementation.(Ν¨Δ
+skotlin:S1186¨"ZAdd a nested comment explaining why this function is empty or complete the implementation.(Ν¨Δ
+skotlin:S1186Θ"ZAdd a nested comment explaining why this function is empty or complete the implementation.(Ν¨Δ

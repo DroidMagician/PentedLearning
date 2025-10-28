@@ -1,0 +1,11 @@
+
+Mkotlin:S108•")Either remove or fill this block of code.(í–üÑıÿÿÿÿ8è­Ì‰±2
+Mkotlin:S108¸")Either remove or fill this block of code.(ö·ã€ÿÿÿÿÿ8é­Ì‰±2
+akotlin:S1172°"<Use "_" instead of this unused lambda parameter "animation".(¯ŸõŠøÿÿÿÿ8é­Ì‰±2
+Qkotlin:S1481‚"1Remove this unused "outputFormat" local variable.(ç±şù8ø­Ì‰±2
+;kotlin:S125O"Remove this commented out code.(Ï¹â‡şÿÿÿÿ
+>kotlin:S125„"Remove this commented out code.(ÑÓà¶8®Ì‰±2
+rkotlin:S3776Ç"RRefactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.(úò­8®Ì‰±2
+rkotlin:S117ä"NRename this parameter to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(¡Ù’äøÿÿÿÿ8 ®Ì‰±2
+zkotlin:S1186í"ZAdd a nested comment explaining why this function is empty or complete the implementation.(ù»æ®8ª®Ì‰±2
+zkotlin:S1186î"ZAdd a nested comment explaining why this function is empty or complete the implementation.(²¢È‘8«®Ì‰±2

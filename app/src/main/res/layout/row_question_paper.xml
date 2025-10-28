@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="model"
+            type="com.pented.learningapp.homeScreen.practice.model.GetQuestionPaperBySubjectResponseModel.Data" />
+
+        <variable
+            name="click"
+            type="android.view.View.OnClickListener" />
+
+        <import type="android.view.View" />
+    </data>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:orientation="horizontal"
+        android:background="@android:drawable/list_selector_background">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/sectionHeader"
+                style="@style/NormalText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@{model.title}"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="@dimen/_14ssp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            style="@style/NormalText"
+            android:id="@+id/txtPoints"
+            android:visibility="gone"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/_10ssp"
+            android:textColor="@color/secondary_gray"
+            android:layout_height="wrap_content">
+
+        </TextView>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/lilMain"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:background="@drawable/gray_rounded_"
+        android:padding="@dimen/_20sdp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1.3"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/txtName"
+                    style="@style/NormalText"
+                    android:textSize="@dimen/_12ssp"
+                    android:layout_width="wrap_content"
+                    android:text="@{model.totalQuestions + ` questions`}"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:layout_height="wrap_content">
+                <TextView
+                    style="@style/NormalText"
+                    android:id="@+id/txtPart"
+                    android:textSize="@dimen/_8ssp"
+                    android:layout_width="wrap_content"
+                    app:setQuestionPaperDuaration= "@{model.durationInMinutes}"
+                    android:layout_height="wrap_content">
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            style="@style/NormalText"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:textSize="@dimen/_6ssp"
+            android:layout_width="wrap_content"
+            android:gravity="left"
+            android:text="@{model.description}"
+            android:layout_height="wrap_content">
+        </TextView>
+        <Button
+            android:id="@+id/btnDownloadPdf"
+            android:layout_width="wrap_content"
+            android:onClick="@{(v)->click.onClick(v)}"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@drawable/button_bg"
+            android:text="View PDF right now"
+            android:textAllCaps="false"
+            android:fontFamily="@font/nunito_bold"
+            android:layout_alignParentEnd="true"
+            android:textSize="@dimen/_13sdp"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_gravity="start" />
+
+        <ImageView
+           android:visibility="gone"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_gravity="left"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:scaleType="fitXY"
+            android:src="@drawable/btn_download_pdf_now"
+            android:layout_height="@dimen/_40sdp"
+            ></ImageView>
+        <ImageView
+            android:id="@+id/btnGoToSolution"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_gravity="left"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:scaleType="fitXY"
+            android:onClick="@{(v)->click.onClick(v)}"
+            android:src="@drawable/btn_go_to_solutions"
+            android:layout_height="@dimen/_40sdp"
+            ></ImageView>
+    </LinearLayout>
+
+</LinearLayout>
+</layout>

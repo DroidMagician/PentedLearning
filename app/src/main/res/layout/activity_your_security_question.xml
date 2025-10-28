@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.pented.learningapp.helper.JustCopyItVIewModel" />
+    </data>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    tools:context=".authScreens.YourSecurityQuestionActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/llBack"
+        android:padding="@dimen/_5sdp"
+        android:gravity="center_vertical"
+        android:layout_margin="@dimen/_10sdp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_back"
+            android:layout_marginTop="@dimen/_1sdp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/back"
+            android:textColor="@color/white"
+            android:fontFamily="@font/nunito_semibold"
+            android:textSize="@dimen/_13sdp"
+            android:layout_marginStart="@dimen/_10sdp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/ic_your_que_bg"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/_100sdp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_60sdp"
+            android:background="@drawable/white_card">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_70sdp"
+                android:paddingStart="@dimen/_35sdp"
+                android:orientation="vertical"
+                android:paddingEnd="@dimen/_35sdp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/your_security_question"
+                        android:textColor="@color/heading_gray"
+                        android:fontFamily="@font/nunito_bold"
+                        android:textSize="@dimen/_22sdp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/please_answer_your_security_question"
+                        android:textColor="@color/secondary_gray"
+                        android:fontFamily="@font/nunito_semibold"
+                        android:textSize="@dimen/_13sdp"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="What was your pet name?"
+                        android:textColor="@color/heading_gray"
+                        android:fontFamily="@font/nunito_regular"
+                        android:layout_marginTop="@dimen/_25sdp"
+                        android:textSize="@dimen/_13sdp"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_45sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:paddingStart="@dimen/_10sdp"
+                        android:paddingEnd="@dimen/_10sdp"
+                        android:background="@drawable/edittext_bg">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:inputType="phone"
+                            android:hint="@string/type_your_ans_here"
+                            android:textSize="@dimen/_12sdp"
+                            android:fontFamily="@font/nunito_regular"
+                            android:textColorHint="@color/secondary_gray"
+                            android:layout_marginLeft="@dimen/_10sdp"/>
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btnContinue"
+                        android:layout_width="@dimen/_90sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:background="@drawable/button_bg"
+                        android:text="@string/cont"
+                        android:fontFamily="@font/nunito_bold"
+                        android:textAllCaps="false"
+                        android:layout_alignParentEnd="true"
+                        android:textSize="@dimen/_13sdp"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="@dimen/_40sdp"/>
+                </LinearLayout>
+
+
+
+
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_35sdp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="70dp"
+                android:layout_margin="@dimen/_10sdp"
+                app:cardElevation="@dimen/_8sdp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_lock_security"
+                    />
+
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
+</layout>

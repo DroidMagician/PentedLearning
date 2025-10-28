@@ -1,0 +1,19 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ê¢°üÿÿÿÿ8Ûà¨2
+{
+java:S3008"YRename this field "SOCKET_TIMEOUT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åàË…ıÿÿÿÿ8™à¨2
+z
+java:S3008"]Rename this field "CONNECTION_TIMEOUT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—¬8™à¨2
+p
+java:S3008 "TRename this field "MAX_RETRY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉšŠ"8™à¨2
+W
+java:S1118":Add a private constructor to hide the implicit public one.(‚‹öë8à¨2
+X	java:S1255"<This block of commented-out lines of code should be removed.(Şš¯ˆ8³à¨2
+]	java:S125G"<This block of commented-out lines of code should be removed.(º²Ÿòúÿÿÿÿ8ºà¨2
+]	java:S125U"<This block of commented-out lines of code should be removed.(®á¨Øøÿÿÿÿ8Êà¨2
+]	java:S125Z"<This block of commented-out lines of code should be removed.(îşØªüÿÿÿÿ8Êà¨2
+X	java:S125k"<This block of commented-out lines of code should be removed.(Ñé¦„8Êà¨2
+L
+java:S1172•".Remove this unused method parameter "context".(£×¦¨8Öà¨2
+V
+java:S1144)"4Remove this unused private "getCredProvider" method.(ñš¯óşÿÿÿÿ8òà¨2

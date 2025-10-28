@@ -1,0 +1,14 @@
+
+f	java:S117\"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏãÉ‘
+f	java:S117]"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á²ä 
+q
+java:S1104"\Make isDevEnvironment a static final constant or non-public and provide accessors if needed.(Ï“–.
+K
+java:S1444"6Make this "public static isDevEnvironment" field final(Ï“–.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(çÒóüÿÿÿÿ
+_
+java:S2095"IUse try-with-resources or close this "InputStream" in a "finally" clause.(ª¦Ò
+R
+java:S2589("7Remove this expression which always evaluates to "true"(¦·úÓøÿÿÿÿ
+i
+java:S4042a"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(Àùî÷ÿÿÿÿÿ

@@ -1,0 +1,21 @@
+
+Mkotlin:S108¶")Either remove or fill this block of code.(ö·ã€ÿÿÿÿÿ8¤—¢¨2
+[kotlin:S1172“";Use "_" instead of this unused lambda parameter "position".(ÌñŒÛ8¦—¢¨2
+[kotlin:S1172";Use "_" instead of this unused lambda parameter "position".(ÌñŒÛ8§—¢¨2
+7kotlin:S1128"Remove this unused import.(Á–åøÿÿÿÿ
+9kotlin:S1128"Remove this unused import.(ÇÄÂ…8 ™Ÿà¨2
+8kotlin:S1128"Remove this unused import.(êª—~8 ™Ÿà¨2
+9kotlin:S1128"Remove this unused import.(ïùØÊ8 ™Ÿà¨2
+>kotlin:S1128&"Remove this unused import.(–‚¥øÿÿÿÿÿ8 ™Ÿà¨2
+;kotlin:S125@"Remove this commented out code.(¢Ô”Şøÿÿÿÿ
+Bkotlin:S125h"Remove this commented out code.(è½±ôùÿÿÿÿ8§˜¢¨2
+Bkotlin:S125r"Remove this commented out code.(Ñ²÷øÿÿÿÿ8­˜¢¨2
+Bkotlin:S125u"Remove this commented out code.(áˆ•Øúÿÿÿÿ8¶˜¢¨2
+Ckotlin:S125Ú"Remove this commented out code.(Ş†ùıÿÿÿÿ8¹˜¢¨2
+>kotlin:S125•"Remove this commented out code.(×øÓ†8¼˜¢¨2
+Ckotlin:S125˜"Remove this commented out code.(¡úúÜüÿÿÿÿ8Ã˜¢¨2
+Ckotlin:S125Å"Remove this commented out code.(ş˜ŒÁÿÿÿÿÿ8Ş˜¢¨2
+pkotlin:S1192y"LDefine a constant instead of duplicating this literal "Next topper" 3 times.(‚ß˜òùÿÿÿÿ8á˜¢¨2
+rkotlin:S3776—"RRefactor this method to reduce its Cognitive Complexity from 55 to the 15 allowed.(úò­8‰™¢¨2
+Ykotlin:S1144Í":Remove this unused private "setLeaderboardAdapter" method.(ïÎÕL8•™¢¨2
+ykotlin:S1186Í"ZAdd a nested comment explaining why this function is empty or complete the implementation.(ïÎÕL8¢™¢¨2
